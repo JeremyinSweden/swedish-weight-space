@@ -1,0 +1,150 @@
+{"id": "open_contrast_000", "lang": "sv", "split": "contrast", "text": "Jag har aldrig riktigt förstått varför vi glömmer saker. Kan du hjälpa mig?", "source": "topic", "cluster": "t49", "template": "k4"}
+{"id": "open_contrast_001", "lang": "sv", "split": "contrast", "text": "Jag har aldrig riktigt förstått vad kryptering är. Kan du hjälpa mig?", "source": "topic", "cluster": "t43", "template": "k4"}
+{"id": "open_contrast_002", "lang": "sv", "split": "contrast", "text": "Vad är det viktigaste att veta om vad kryptering är?", "source": "topic", "cluster": "t43", "template": "k7"}
+{"id": "open_contrast_003", "lang": "sv", "split": "contrast", "text": "Ge ett konkret exempel som visar hur man förbereder sig inför en anställningsintervju.", "source": "topic", "cluster": "t62", "template": "k6"}
+{"id": "open_contrast_004", "lang": "sv", "split": "contrast", "text": "Beskriv kort hur fotosyntesen fungerar.", "source": "topic", "cluster": "t00", "template": "k2"}
+{"id": "open_contrast_005", "lang": "sv", "split": "contrast", "text": "Jag har aldrig riktigt förstått hur skatter används i samhället. Kan du hjälpa mig?", "source": "topic", "cluster": "t46", "template": "k4"}
+{"id": "open_contrast_006", "lang": "sv", "split": "contrast", "text": "Förklara varför havet är salt.", "source": "topic", "cluster": "t21", "template": "k0"}
+{"id": "open_contrast_007", "lang": "sv", "split": "contrast", "text": "Ge ett konkret exempel som visar hur kroppen reglerar sin temperatur.", "source": "topic", "cluster": "t63", "template": "k6"}
+{"id": "open_contrast_008", "lang": "sv", "split": "contrast", "text": "Kan du förklara hur regnbågar bildas för en tolvåring?", "source": "topic", "cluster": "t44", "template": "k1"}
+{"id": "open_contrast_009", "lang": "sv", "split": "contrast", "text": "Ge mig några idéer på aktiviteter för en regnig söndag.", "source": "standalone", "cluster": "s08", "template": null}
+{"id": "open_contrast_010", "lang": "sv", "split": "contrast", "text": "Förklara vad som skiljer ett virus från en bakterie.", "source": "topic", "cluster": "t07", "template": "k0"}
+{"id": "open_contrast_011", "lang": "sv", "split": "contrast", "text": "Kan du förklara hur bin gör honung för en tolvåring?", "source": "topic", "cluster": "t24", "template": "k1"}
+{"id": "open_contrast_012", "lang": "sv", "split": "contrast", "text": "Sammanfatta i tre punkter hur bin gör honung.", "source": "topic", "cluster": "t24", "template": "k5"}
+{"id": "open_contrast_013", "lang": "sv", "split": "contrast", "text": "Kan du förklara hur man lär sig ett nytt språk effektivt för en tolvåring?", "source": "topic", "cluster": "t32", "template": "k1"}
+{"id": "open_contrast_014", "lang": "sv", "split": "contrast", "text": "Beskriv kort varför motion är bra för hjärnan.", "source": "topic", "cluster": "t45", "template": "k2"}
+{"id": "open_contrast_015", "lang": "sv", "split": "contrast", "text": "Skriv ett kort stycke om hur en dator lagrar information.", "source": "topic", "cluster": "t56", "template": "k3"}
+{"id": "open_contrast_016", "lang": "sv", "split": "contrast", "text": "Jag har aldrig riktigt förstått hur en värmepump fungerar. Kan du hjälpa mig?", "source": "topic", "cluster": "t02", "template": "k4"}
+{"id": "open_contrast_017", "lang": "sv", "split": "contrast", "text": "Beskriv kort varför det är viktigt att dricka vatten.", "source": "topic", "cluster": "t66", "template": "k2"}
+{"id": "open_contrast_018", "lang": "sv", "split": "contrast", "text": "Vad är det viktigaste att veta om vad artificiell intelligens är?", "source": "topic", "cluster": "t31", "template": "k7"}
+{"id": "open_contrast_019", "lang": "sv", "split": "contrast", "text": "Förklara hur regnbågar bildas.", "source": "topic", "cluster": "t44", "template": "k0"}
+{"id": "open_contrast_020", "lang": "sv", "split": "contrast", "text": "Kan du förklara hur en dator lagrar information för en tolvåring?", "source": "topic", "cluster": "t56", "template": "k1"}
+{"id": "open_contrast_021", "lang": "sv", "split": "contrast", "text": "Jag har aldrig riktigt förstått vad ett ekosystem är. Kan du hjälpa mig?", "source": "topic", "cluster": "t11", "template": "k4"}
+{"id": "open_contrast_022", "lang": "sv", "split": "contrast", "text": "Skriv ett kort stycke om varför himlen är blå.", "source": "topic", "cluster": "t01", "template": "k3"}
+{"id": "open_contrast_023", "lang": "sv", "split": "contrast", "text": "Hur kommer jag igång med att springa om jag aldrig har tränat?", "source": "standalone", "cluster": "s09", "template": null}
+{"id": "open_contrast_024", "lang": "sv", "split": "contrast", "text": "Skriv ett kort stycke om hur regnbågar bildas.", "source": "topic", "cluster": "t44", "template": "k3"}
+{"id": "open_contrast_025", "lang": "sv", "split": "contrast", "text": "Jag har aldrig riktigt förstått hur ljud färdas genom luften. Kan du hjälpa mig?", "source": "topic", "cluster": "t65", "template": "k4"}
+{"id": "open_contrast_026", "lang": "sv", "split": "contrast", "text": "Ge ett konkret exempel som visar hur en mikrovågsugn värmer mat.", "source": "topic", "cluster": "t42", "template": "k6"}
+{"id": "open_contrast_027", "lang": "sv", "split": "contrast", "text": "Förklara vad kryptering är.", "source": "topic", "cluster": "t43", "template": "k0"}
+{"id": "open_contrast_028", "lang": "sv", "split": "contrast", "text": "Jag har aldrig riktigt förstått hur man skyddar sina lösenord. Kan du hjälpa mig?", "source": "topic", "cluster": "t18", "template": "k4"}
+{"id": "open_contrast_029", "lang": "sv", "split": "contrast", "text": "Skriv ett kort stycke om varför motion är bra för hjärnan.", "source": "topic", "cluster": "t45", "template": "k3"}
+{"id": "open_contrast_030", "lang": "sv", "split": "contrast", "text": "Sammanfatta i tre punkter hur norrsken uppstår.", "source": "topic", "cluster": "t20", "template": "k5"}
+{"id": "open_contrast_031", "lang": "sv", "split": "contrast", "text": "Vad är det viktigaste att veta om varför motion är bra för hjärnan?", "source": "topic", "cluster": "t45", "template": "k7"}
+{"id": "open_contrast_032", "lang": "sv", "split": "contrast", "text": "Förklara varför himlen är blå.", "source": "topic", "cluster": "t01", "template": "k0"}
+{"id": "open_contrast_033", "lang": "sv", "split": "contrast", "text": "Jag har aldrig riktigt förstått vad artificiell intelligens är. Kan du hjälpa mig?", "source": "topic", "cluster": "t31", "template": "k4"}
+{"id": "open_contrast_034", "lang": "sv", "split": "contrast", "text": "Förklara vad inflation är och varför den uppstår.", "source": "topic", "cluster": "t03", "template": "k0"}
+{"id": "open_contrast_035", "lang": "sv", "split": "contrast", "text": "Ge ett konkret exempel som visar hur bin gör honung.", "source": "topic", "cluster": "t24", "template": "k6"}
+{"id": "open_contrast_036", "lang": "sv", "split": "contrast", "text": "Jag har aldrig riktigt förstått hur räntan på ett lån beräknas. Kan du hjälpa mig?", "source": "topic", "cluster": "t10", "template": "k4"}
+{"id": "open_contrast_037", "lang": "sv", "split": "contrast", "text": "Förklara hur man skyddar sina lösenord.", "source": "topic", "cluster": "t18", "template": "k0"}
+{"id": "open_contrast_038", "lang": "sv", "split": "contrast", "text": "Sammanfatta i tre punkter hur en mikrovågsugn värmer mat.", "source": "topic", "cluster": "t42", "template": "k5"}
+{"id": "open_contrast_039", "lang": "sv", "split": "contrast", "text": "Jag har aldrig riktigt förstått varför sömn är viktig för hälsan. Kan du hjälpa mig?", "source": "topic", "cluster": "t13", "template": "k4"}
+{"id": "open_contrast_040", "lang": "sv", "split": "contrast", "text": "Vad är det viktigaste att veta om vad skillnaden mellan väder och klimat är?", "source": "topic", "cluster": "t27", "template": "k7"}
+{"id": "open_contrast_041", "lang": "sv", "split": "contrast", "text": "Vad är det viktigaste att veta om varför himlen är blå?", "source": "topic", "cluster": "t01", "template": "k7"}
+{"id": "open_contrast_042", "lang": "sv", "split": "contrast", "text": "Jag har aldrig riktigt förstått hur aktier fungerar. Kan du hjälpa mig?", "source": "topic", "cluster": "t30", "template": "k4"}
+{"id": "open_contrast_043", "lang": "sv", "split": "contrast", "text": "Kan du förklara hur ett kylskåp håller maten kall för en tolvåring?", "source": "topic", "cluster": "t14", "template": "k1"}
+{"id": "open_contrast_044", "lang": "sv", "split": "contrast", "text": "Vad är det viktigaste att veta om varför sömn är viktig för hälsan?", "source": "topic", "cluster": "t13", "template": "k7"}
+{"id": "open_contrast_045", "lang": "sv", "split": "contrast", "text": "Kan du förklara vad som skiljer ett virus från en bakterie för en tolvåring?", "source": "topic", "cluster": "t07", "template": "k1"}
+{"id": "open_contrast_046", "lang": "sv", "split": "contrast", "text": "Förklara hur ett batteri lagrar energi.", "source": "topic", "cluster": "t38", "template": "k0"}
+{"id": "open_contrast_047", "lang": "sv", "split": "contrast", "text": "Förklara varför vi har tidszoner.", "source": "topic", "cluster": "t61", "template": "k0"}
+{"id": "open_contrast_048", "lang": "sv", "split": "contrast", "text": "Ge ett konkret exempel som visar hur ljud färdas genom luften.", "source": "topic", "cluster": "t65", "template": "k6"}
+{"id": "open_contrast_049", "lang": "sv", "split": "contrast", "text": "Sammanfatta i tre punkter hur ett mobilnät fungerar.", "source": "topic", "cluster": "t71", "template": "k5"}
+{"id": "open_contrast_050", "lang": "sv", "split": "contrast", "text": "Förklara hur skatter används i samhället.", "source": "topic", "cluster": "t46", "template": "k0"}
+{"id": "open_contrast_051", "lang": "sv", "split": "contrast", "text": "Skriv ett kort stycke om hur ett batteri lagrar energi.", "source": "topic", "cluster": "t38", "template": "k3"}
+{"id": "open_contrast_052", "lang": "sv", "split": "contrast", "text": "Skriv ett kort stycke om varför det är viktigt att dricka vatten.", "source": "topic", "cluster": "t66", "template": "k3"}
+{"id": "open_contrast_053", "lang": "sv", "split": "contrast", "text": "Sammanfatta i tre punkter varför vissa material leder ström.", "source": "topic", "cluster": "t57", "template": "k5"}
+{"id": "open_contrast_054", "lang": "sv", "split": "contrast", "text": "Kan du förklara varför det är viktigt att dricka vatten för en tolvåring?", "source": "topic", "cluster": "t66", "template": "k1"}
+{"id": "open_contrast_055", "lang": "sv", "split": "contrast", "text": "Vad är det viktigaste att veta om hur man förbereder sig inför en anställningsintervju?", "source": "topic", "cluster": "t62", "template": "k7"}
+{"id": "open_contrast_056", "lang": "sv", "split": "contrast", "text": "Skriv ett kort stycke om vad skillnaden mellan väder och klimat är.", "source": "topic", "cluster": "t27", "template": "k3"}
+{"id": "open_contrast_057", "lang": "sv", "split": "contrast", "text": "Beskriv kort varför havet är salt.", "source": "topic", "cluster": "t21", "template": "k2"}
+{"id": "open_contrast_058", "lang": "sv", "split": "contrast", "text": "Skriv ett kort stycke om hur aktier fungerar.", "source": "topic", "cluster": "t30", "template": "k3"}
+{"id": "open_contrast_059", "lang": "sv", "split": "contrast", "text": "Kan du förklara hur ett mobilnät fungerar för en tolvåring?", "source": "topic", "cluster": "t71", "template": "k1"}
+{"id": "open_contrast_060", "lang": "sv", "split": "contrast", "text": "Beskriv kort vad som skiljer ett virus från en bakterie.", "source": "topic", "cluster": "t07", "template": "k2"}
+{"id": "open_contrast_061", "lang": "sv", "split": "contrast", "text": "Kan du förklara vad artificiell intelligens är för en tolvåring?", "source": "topic", "cluster": "t31", "template": "k1"}
+{"id": "open_contrast_062", "lang": "sv", "split": "contrast", "text": "Beskriv kort varför vissa material leder ström.", "source": "topic", "cluster": "t57", "template": "k2"}
+{"id": "open_contrast_063", "lang": "sv", "split": "contrast", "text": "Skriv ett kort stycke om vad en budget är och hur man gör en.", "source": "topic", "cluster": "t19", "template": "k3"}
+{"id": "open_contrast_064", "lang": "sv", "split": "contrast", "text": "Förklara hur en dator lagrar information.", "source": "topic", "cluster": "t56", "template": "k0"}
+{"id": "open_contrast_065", "lang": "sv", "split": "contrast", "text": "Vad kan man göra med rester av kokt ris?", "source": "standalone", "cluster": "s44", "template": null}
+{"id": "open_contrast_066", "lang": "sv", "split": "contrast", "text": "Ge ett konkret exempel som visar hur man skyddar sina lösenord.", "source": "topic", "cluster": "t18", "template": "k6"}
+{"id": "open_contrast_067", "lang": "sv", "split": "contrast", "text": "Sammanfatta i tre punkter varför vi har tidszoner.", "source": "topic", "cluster": "t61", "template": "k5"}
+{"id": "open_contrast_068", "lang": "sv", "split": "contrast", "text": "Skriv ett kort stycke om vad ett ekosystem är.", "source": "topic", "cluster": "t11", "template": "k3"}
+{"id": "open_contrast_069", "lang": "sv", "split": "contrast", "text": "Sammanfatta i tre punkter varför vi glömmer saker.", "source": "topic", "cluster": "t49", "template": "k5"}
+{"id": "open_contrast_070", "lang": "sv", "split": "contrast", "text": "Beskriv kort hur norrsken uppstår.", "source": "topic", "cluster": "t20", "template": "k2"}
+{"id": "open_contrast_071", "lang": "sv", "split": "contrast", "text": "Beskriv kort vad ett ekosystem är.", "source": "topic", "cluster": "t11", "template": "k2"}
+{"id": "open_contrast_072", "lang": "sv", "split": "contrast", "text": "Ge ett konkret exempel som visar varför vissa material leder ström.", "source": "topic", "cluster": "t57", "template": "k6"}
+{"id": "open_contrast_073", "lang": "sv", "split": "contrast", "text": "Vad är det viktigaste att veta om hur fotosyntesen fungerar?", "source": "topic", "cluster": "t00", "template": "k7"}
+{"id": "open_contrast_074", "lang": "sv", "split": "contrast", "text": "Skriv ett kort stycke om hur bin gör honung.", "source": "topic", "cluster": "t24", "template": "k3"}
+{"id": "open_contrast_075", "lang": "sv", "split": "contrast", "text": "Jag har aldrig riktigt förstått hur fotosyntesen fungerar. Kan du hjälpa mig?", "source": "topic", "cluster": "t00", "template": "k4"}
+{"id": "open_contrast_076", "lang": "sv", "split": "contrast", "text": "Beskriv kort hur ett kylskåp håller maten kall.", "source": "topic", "cluster": "t14", "template": "k2"}
+{"id": "open_contrast_077", "lang": "sv", "split": "contrast", "text": "Sammanfatta i tre punkter hur regnbågar bildas.", "source": "topic", "cluster": "t44", "template": "k5"}
+{"id": "open_contrast_078", "lang": "sv", "split": "contrast", "text": "Förklara vad artificiell intelligens är.", "source": "topic", "cluster": "t31", "template": "k0"}
+{"id": "open_contrast_079", "lang": "sv", "split": "contrast", "text": "Ge ett konkret exempel som visar hur ett kylskåp håller maten kall.", "source": "topic", "cluster": "t14", "template": "k6"}
+{"id": "open_contrast_080", "lang": "sv", "split": "contrast", "text": "Kan du förklara vad en vulkan är för en tolvåring?", "source": "topic", "cluster": "t35", "template": "k1"}
+{"id": "open_contrast_081", "lang": "sv", "split": "contrast", "text": "Skriv ett kort stycke om varför vi har tidszoner.", "source": "topic", "cluster": "t61", "template": "k3"}
+{"id": "open_contrast_082", "lang": "sv", "split": "contrast", "text": "Förklara varför sömn är viktig för hälsan.", "source": "topic", "cluster": "t13", "template": "k0"}
+{"id": "open_contrast_083", "lang": "sv", "split": "contrast", "text": "Beskriv kort hur aktier fungerar.", "source": "topic", "cluster": "t30", "template": "k2"}
+{"id": "open_contrast_084", "lang": "sv", "split": "contrast", "text": "Vad är det viktigaste att veta om varför vi glömmer saker?", "source": "topic", "cluster": "t49", "template": "k7"}
+{"id": "open_contrast_085", "lang": "sv", "split": "contrast", "text": "Skriv ett kort stycke om hur ett mobilnät fungerar.", "source": "topic", "cluster": "t71", "template": "k3"}
+{"id": "open_contrast_086", "lang": "sv", "split": "contrast", "text": "Förklara vad en budget är och hur man gör en.", "source": "topic", "cluster": "t19", "template": "k0"}
+{"id": "open_contrast_087", "lang": "sv", "split": "contrast", "text": "Beskriv kort varför himlen är blå.", "source": "topic", "cluster": "t01", "template": "k2"}
+{"id": "open_contrast_088", "lang": "sv", "split": "contrast", "text": "Skriv ett kort stycke om hur man lär sig ett nytt språk effektivt.", "source": "topic", "cluster": "t32", "template": "k3"}
+{"id": "open_contrast_089", "lang": "sv", "split": "contrast", "text": "Vad är det viktigaste att veta om hur en värmepump fungerar?", "source": "topic", "cluster": "t02", "template": "k7"}
+{"id": "open_contrast_090", "lang": "sv", "split": "contrast", "text": "Sammanfatta i tre punkter hur ett batteri lagrar energi.", "source": "topic", "cluster": "t38", "template": "k5"}
+{"id": "open_contrast_091", "lang": "sv", "split": "contrast", "text": "Skriv ett kort stycke om hur myror samarbetar.", "source": "topic", "cluster": "t67", "template": "k3"}
+{"id": "open_contrast_092", "lang": "sv", "split": "contrast", "text": "Förklara hur kroppen reglerar sin temperatur.", "source": "topic", "cluster": "t63", "template": "k0"}
+{"id": "open_contrast_093", "lang": "sv", "split": "contrast", "text": "Skriv en kort beskrivning av en vinterdag på landet.", "source": "standalone", "cluster": "s46", "template": null}
+{"id": "open_contrast_094", "lang": "sv", "split": "contrast", "text": "Vad är det viktigaste att veta om hur myror samarbetar?", "source": "topic", "cluster": "t67", "template": "k7"}
+{"id": "open_contrast_095", "lang": "sv", "split": "contrast", "text": "Ge ett konkret exempel som visar hur räntan på ett lån beräknas.", "source": "topic", "cluster": "t10", "template": "k6"}
+{"id": "open_contrast_096", "lang": "sv", "split": "contrast", "text": "Förklara varför det är viktigt att dricka vatten.", "source": "topic", "cluster": "t66", "template": "k0"}
+{"id": "open_contrast_097", "lang": "sv", "split": "contrast", "text": "Vad är det viktigaste att veta om hur skatter används i samhället?", "source": "topic", "cluster": "t46", "template": "k7"}
+{"id": "open_contrast_098", "lang": "sv", "split": "contrast", "text": "Kan du förklara varför vissa material leder ström för en tolvåring?", "source": "topic", "cluster": "t57", "template": "k1"}
+{"id": "open_contrast_099", "lang": "sv", "split": "contrast", "text": "Förklara hur man lär sig ett nytt språk effektivt.", "source": "topic", "cluster": "t32", "template": "k0"}
+{"id": "open_contrast_100", "lang": "sv", "split": "contrast", "text": "Sammanfatta i tre punkter vad en budget är och hur man gör en.", "source": "topic", "cluster": "t19", "template": "k5"}
+{"id": "open_contrast_101", "lang": "sv", "split": "contrast", "text": "Hur förklarar jag för mitt barn varför man måste borsta tänderna?", "source": "standalone", "cluster": "s18", "template": null}
+{"id": "open_contrast_102", "lang": "sv", "split": "contrast", "text": "Sammanfatta i tre punkter hur räntan på ett lån beräknas.", "source": "topic", "cluster": "t10", "template": "k5"}
+{"id": "open_contrast_103", "lang": "sv", "split": "contrast", "text": "Vad är det viktigaste att veta om varför vi har tidszoner?", "source": "topic", "cluster": "t61", "template": "k7"}
+{"id": "open_contrast_104", "lang": "sv", "split": "contrast", "text": "Sammanfatta i tre punkter varför havet är salt.", "source": "topic", "cluster": "t21", "template": "k5"}
+{"id": "open_contrast_105", "lang": "sv", "split": "contrast", "text": "Ge ett konkret exempel som visar vad en budget är och hur man gör en.", "source": "topic", "cluster": "t19", "template": "k6"}
+{"id": "open_contrast_106", "lang": "sv", "split": "contrast", "text": "Kan du förklara vad ett ekosystem är för en tolvåring?", "source": "topic", "cluster": "t11", "template": "k1"}
+{"id": "open_contrast_107", "lang": "sv", "split": "contrast", "text": "Skriv ett kort stycke om hur kroppen reglerar sin temperatur.", "source": "topic", "cluster": "t63", "template": "k3"}
+{"id": "open_contrast_108", "lang": "sv", "split": "contrast", "text": "Sammanfatta i tre punkter vad en vulkan är.", "source": "topic", "cluster": "t35", "template": "k5"}
+{"id": "open_contrast_109", "lang": "sv", "split": "contrast", "text": "Hur gör jag en enkel tomatsoppa?", "source": "standalone", "cluster": "s39", "template": null}
+{"id": "open_contrast_110", "lang": "sv", "split": "contrast", "text": "Kan du förklara vad inflation är och varför den uppstår för en tolvåring?", "source": "topic", "cluster": "t03", "template": "k1"}
+{"id": "open_contrast_111", "lang": "sv", "split": "contrast", "text": "Beskriv kort vad kryptering är.", "source": "topic", "cluster": "t43", "template": "k2"}
+{"id": "open_contrast_112", "lang": "sv", "split": "contrast", "text": "Vad är det viktigaste att veta om hur en mikrovågsugn värmer mat?", "source": "topic", "cluster": "t42", "template": "k7"}
+{"id": "open_contrast_113", "lang": "sv", "split": "contrast", "text": "Vad är det viktigaste att veta om hur norrsken uppstår?", "source": "topic", "cluster": "t20", "template": "k7"}
+{"id": "open_contrast_114", "lang": "sv", "split": "contrast", "text": "Jag har aldrig riktigt förstått vad som skiljer ett virus från en bakterie. Kan du hjälpa mig?", "source": "topic", "cluster": "t07", "template": "k4"}
+{"id": "open_contrast_115", "lang": "sv", "split": "contrast", "text": "Ge ett konkret exempel som visar hur en värmepump fungerar.", "source": "topic", "cluster": "t02", "template": "k6"}
+{"id": "open_contrast_116", "lang": "sv", "split": "contrast", "text": "Ge ett konkret exempel som visar hur man lär sig ett nytt språk effektivt.", "source": "topic", "cluster": "t32", "template": "k6"}
+{"id": "open_contrast_117", "lang": "sv", "split": "contrast", "text": "Ge ett konkret exempel som visar hur fotosyntesen fungerar.", "source": "topic", "cluster": "t00", "template": "k6"}
+{"id": "open_contrast_118", "lang": "sv", "split": "contrast", "text": "Kan du förklara hur kroppen reglerar sin temperatur för en tolvåring?", "source": "topic", "cluster": "t63", "template": "k1"}
+{"id": "open_contrast_119", "lang": "sv", "split": "contrast", "text": "Förklara hur man förbereder sig inför en anställningsintervju.", "source": "topic", "cluster": "t62", "template": "k0"}
+{"id": "open_contrast_120", "lang": "sv", "split": "contrast", "text": "Ge mig tips för att hålla mig varm under en kall vinter.", "source": "standalone", "cluster": "s69", "template": null}
+{"id": "open_contrast_121", "lang": "sv", "split": "contrast", "text": "Ge ett konkret exempel som visar varför havet är salt.", "source": "topic", "cluster": "t21", "template": "k6"}
+{"id": "open_contrast_122", "lang": "sv", "split": "contrast", "text": "Beskriv kort hur man skyddar sina lösenord.", "source": "topic", "cluster": "t18", "template": "k2"}
+{"id": "open_contrast_123", "lang": "sv", "split": "contrast", "text": "Beskriv kort hur en värmepump fungerar.", "source": "topic", "cluster": "t02", "template": "k2"}
+{"id": "open_contrast_124", "lang": "sv", "split": "contrast", "text": "Förklara hur myror samarbetar.", "source": "topic", "cluster": "t67", "template": "k0"}
+{"id": "open_contrast_125", "lang": "sv", "split": "contrast", "text": "Skriv en kort saga om en drake som är rädd för eld.", "source": "standalone", "cluster": "s34", "template": null}
+{"id": "open_contrast_126", "lang": "sv", "split": "contrast", "text": "Skriv ett kort stycke om hur räntan på ett lån beräknas.", "source": "topic", "cluster": "t10", "template": "k3"}
+{"id": "open_contrast_127", "lang": "sv", "split": "contrast", "text": "Jag har aldrig riktigt förstått hur ett kylskåp håller maten kall. Kan du hjälpa mig?", "source": "topic", "cluster": "t14", "template": "k4"}
+{"id": "open_contrast_128", "lang": "sv", "split": "contrast", "text": "Hur kan jag säga nej till extra arbetsuppgifter på ett artigt sätt?", "source": "standalone", "cluster": "s68", "template": null}
+{"id": "open_contrast_129", "lang": "sv", "split": "contrast", "text": "Beskriv kort vad inflation är och varför den uppstår.", "source": "topic", "cluster": "t03", "template": "k2"}
+{"id": "open_contrast_130", "lang": "sv", "split": "contrast", "text": "Ge ett konkret exempel som visar hur ett mobilnät fungerar.", "source": "topic", "cluster": "t71", "template": "k6"}
+{"id": "open_contrast_131", "lang": "sv", "split": "contrast", "text": "Förklara vad en vulkan är.", "source": "topic", "cluster": "t35", "template": "k0"}
+{"id": "open_contrast_132", "lang": "sv", "split": "contrast", "text": "Skriv ett kort stycke om varför sömn är viktig för hälsan.", "source": "topic", "cluster": "t13", "template": "k3"}
+{"id": "open_contrast_133", "lang": "sv", "split": "contrast", "text": "Jag har aldrig riktigt förstått hur man förbereder sig inför en anställningsintervju. Kan du hjälpa mig?", "source": "topic", "cluster": "t62", "template": "k4"}
+{"id": "open_contrast_134", "lang": "sv", "split": "contrast", "text": "Kan du förklara hur ett batteri lagrar energi för en tolvåring?", "source": "topic", "cluster": "t38", "template": "k1"}
+{"id": "open_contrast_135", "lang": "sv", "split": "contrast", "text": "Beskriv kort hur en dator lagrar information.", "source": "topic", "cluster": "t56", "template": "k2"}
+{"id": "open_contrast_136", "lang": "sv", "split": "contrast", "text": "Ge ett konkret exempel som visar vad skillnaden mellan väder och klimat är.", "source": "topic", "cluster": "t27", "template": "k6"}
+{"id": "open_contrast_137", "lang": "sv", "split": "contrast", "text": "Vilka frågor bör jag ställa när jag tittar på en lägenhet att hyra?", "source": "standalone", "cluster": "s30", "template": null}
+{"id": "open_contrast_138", "lang": "sv", "split": "contrast", "text": "Kan du förklara hur myror samarbetar för en tolvåring?", "source": "topic", "cluster": "t67", "template": "k1"}
+{"id": "open_contrast_139", "lang": "sv", "split": "contrast", "text": "Skriv ett kort stycke om hur ljud färdas genom luften.", "source": "topic", "cluster": "t65", "template": "k3"}
+{"id": "open_contrast_140", "lang": "sv", "split": "contrast", "text": "Beskriv kort vad skillnaden mellan väder och klimat är.", "source": "topic", "cluster": "t27", "template": "k2"}
+{"id": "open_contrast_141", "lang": "sv", "split": "contrast", "text": "Ge ett konkret exempel som visar varför vi glömmer saker.", "source": "topic", "cluster": "t49", "template": "k6"}
+{"id": "open_contrast_142", "lang": "sv", "split": "contrast", "text": "Vad är det viktigaste att veta om vad inflation är och varför den uppstår?", "source": "topic", "cluster": "t03", "template": "k7"}
+{"id": "open_contrast_143", "lang": "sv", "split": "contrast", "text": "Kan du förklara hur norrsken uppstår för en tolvåring?", "source": "topic", "cluster": "t20", "template": "k1"}
+{"id": "open_contrast_144", "lang": "sv", "split": "contrast", "text": "Kan du förklara varför motion är bra för hjärnan för en tolvåring?", "source": "topic", "cluster": "t45", "template": "k1"}
+{"id": "open_contrast_145", "lang": "sv", "split": "contrast", "text": "Förklara hur en mikrovågsugn värmer mat.", "source": "topic", "cluster": "t42", "template": "k0"}
+{"id": "open_contrast_146", "lang": "sv", "split": "contrast", "text": "Vad är det viktigaste att veta om hur aktier fungerar?", "source": "topic", "cluster": "t30", "template": "k7"}
+{"id": "open_contrast_147", "lang": "sv", "split": "contrast", "text": "Beskriv kort hur ljud färdas genom luften.", "source": "topic", "cluster": "t65", "template": "k2"}
+{"id": "open_contrast_148", "lang": "sv", "split": "contrast", "text": "Jag har aldrig riktigt förstått vad en vulkan är. Kan du hjälpa mig?", "source": "topic", "cluster": "t35", "template": "k4"}
+{"id": "open_contrast_149", "lang": "sv", "split": "contrast", "text": "Sammanfatta i tre punkter hur skatter används i samhället.", "source": "topic", "cluster": "t46", "template": "k5"}

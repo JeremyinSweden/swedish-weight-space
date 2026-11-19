@@ -1,0 +1,55 @@
+{
+  "seed": 20261119,
+  "generator": "scripts/01_make_data.py",
+  "source_material": "scripts/data_sources.py (written by Claude, spot-checked by the author)",
+  "files": {
+    "contrast_en.jsonl": {
+      "rows": 150,
+      "sha256": "e31d0c62cdffc7cfe077c0e9a58bc32a553b4f98779d2026999f94b288c123b0"
+    },
+    "contrast_sv.jsonl": {
+      "rows": 150,
+      "sha256": "12299b62f11e2268ef133cc5149d6ba40b428c2ff7a22c87ae4c466dd9f4dc6c"
+    },
+    "en_math_dev.jsonl": {
+      "rows": 60,
+      "sha256": "d48551a41fe2f1842f488fbf953ce5169147782965d8b1f1a12dbaf38f23ba1b"
+    },
+    "en_math_test.jsonl": {
+      "rows": 100,
+      "sha256": "45ea2ce843375176e6bfac924df5511f88b6b8d4f3e9a963d7df5e285426b182"
+    },
+    "en_open_dev.jsonl": {
+      "rows": 80,
+      "sha256": "0bfb625d30aaae389453649d6ff798a39e1a571eac1297faedabf5bc5bbd1a13"
+    },
+    "en_open_test.jsonl": {
+      "rows": 120,
+      "sha256": "af82506e304bccdceb067b48d95abac261c819a0f79425941c52402c3af03e5f"
+    },
+    "en_ref_test.jsonl": {
+      "rows": 50,
+      "sha256": "a3675a73ad559e9796a3b5a15f7aa21e494c9adf4f8283414a52a6b168cecf15"
+    },
+    "sv_math_dev.jsonl": {
+      "rows": 60,
+      "sha256": "6809cdb578c7e8c92dce8282b58832d43f7ac92cb50a57707c7643a2b341bcf2"
+    },
+    "sv_math_test.jsonl": {
+      "rows": 100,
+      "sha256": "a31432db2855388a91c59f80400db77b1d530c58bca115690eaef301bde72e3a"
+    },
+    "sv_open_dev.jsonl": {
+      "rows": 80,
+      "sha256": "74de4800f5c1a521e8e31abba1ab07ba569902d485f287f7b321655a58917136"
+    },
+    "sv_open_test.jsonl": {
+      "rows": 120,
+      "sha256": "c5b023b05c9f661e7ea5e3a9f13484bef3575a01ca4f4cd4f2b897059900889a"
+    },
+    "sv_ref_test.jsonl": {
+      "rows": 50,
+      "sha256": "761112eca03c6d851a4e3a10c9fd0593d7bd1c840e7f2d75f41362f3e682a3d4"
+    }
+  }
+}

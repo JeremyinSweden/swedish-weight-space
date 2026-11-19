@@ -1,0 +1,8 @@
+{
+  "_comment": "Candidate models for the pilot (docs/02_hypothesis.md 2.5). 'revision' is resolved to a commit sha on first run and recorded in results/model_revisions.json; later steps pin that sha.",
+  "candidates": [
+    {"name": "qwen2.5-0.5b", "repo_id": "Qwen/Qwen2.5-0.5B-Instruct", "revision": "main", "template_kwargs": {}},
+    {"name": "qwen3-0.6b", "repo_id": "Qwen/Qwen3-0.6B", "revision": "main", "template_kwargs": {"enable_thinking": false}},
+    {"name": "smollm2-360m", "repo_id": "HuggingFaceTB/SmolLM2-360M-Instruct", "revision": "main", "template_kwargs": {}}
+  ]
+}

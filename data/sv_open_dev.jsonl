@@ -1,0 +1,80 @@
+{"id": "open_dev_000", "lang": "sv", "split": "dev", "text": "Skriv ett kort stycke om hur kompostering fungerar.", "source": "topic", "cluster": "t54", "template": "k3"}
+{"id": "open_dev_001", "lang": "sv", "split": "dev", "text": "Ge ett konkret exempel som visar vad ett pensionssystem är.", "source": "topic", "cluster": "t59", "template": "k6"}
+{"id": "open_dev_002", "lang": "sv", "split": "dev", "text": "Vad är det viktigaste att veta om hur tidvatten uppstår?", "source": "topic", "cluster": "t40", "template": "k7"}
+{"id": "open_dev_003", "lang": "sv", "split": "dev", "text": "Ge ett konkret exempel som visar hur vaccin skyddar mot sjukdomar.", "source": "topic", "cluster": "t04", "template": "k6"}
+{"id": "open_dev_004", "lang": "sv", "split": "dev", "text": "Ge ett konkret exempel som visar vad biologisk mångfald är.", "source": "topic", "cluster": "t51", "template": "k6"}
+{"id": "open_dev_005", "lang": "sv", "split": "dev", "text": "Ge mig tre tips för att sova bättre.", "source": "standalone", "cluster": "s00", "template": null}
+{"id": "open_dev_006", "lang": "sv", "split": "dev", "text": "Vad ska man tänka på innan man skaffar hund?", "source": "standalone", "cluster": "s57", "template": null}
+{"id": "open_dev_007", "lang": "sv", "split": "dev", "text": "Ge mig idéer på en present till min mormor som fyller åttio.", "source": "standalone", "cluster": "s48", "template": null}
+{"id": "open_dev_008", "lang": "sv", "split": "dev", "text": "Ge ett konkret exempel som visar hur tidvatten uppstår.", "source": "topic", "cluster": "t40", "template": "k6"}
+{"id": "open_dev_009", "lang": "sv", "split": "dev", "text": "Kan du förklara hur hjärtat pumpar blod för en tolvåring?", "source": "topic", "cluster": "t28", "template": "k1"}
+{"id": "open_dev_010", "lang": "sv", "split": "dev", "text": "Jag har aldrig riktigt förstått hur blixtar uppstår. Kan du hjälpa mig?", "source": "topic", "cluster": "t36", "template": "k4"}
+{"id": "open_dev_011", "lang": "sv", "split": "dev", "text": "Planera en helgresa till Göteborg för två personer.", "source": "standalone", "cluster": "s05", "template": null}
+{"id": "open_dev_012", "lang": "sv", "split": "dev", "text": "Sammanfatta i tre punkter hur vaccin skyddar mot sjukdomar.", "source": "topic", "cluster": "t04", "template": "k5"}
+{"id": "open_dev_013", "lang": "sv", "split": "dev", "text": "Beskriv kort vad allemansrätten innebär.", "source": "topic", "cluster": "t23", "template": "k2"}
+{"id": "open_dev_014", "lang": "sv", "split": "dev", "text": "Vilka fördelar och nackdelar finns det med att jobba hemifrån?", "source": "standalone", "cluster": "s11", "template": null}
+{"id": "open_dev_015", "lang": "sv", "split": "dev", "text": "Förklara vad klimatförändringar innebär.", "source": "topic", "cluster": "t15", "template": "k0"}
+{"id": "open_dev_016", "lang": "sv", "split": "dev", "text": "Förklara hur en GPS vet var den är.", "source": "topic", "cluster": "t26", "template": "k0"}
+{"id": "open_dev_017", "lang": "sv", "split": "dev", "text": "Skriv ett kort stycke om hur blixtar uppstår.", "source": "topic", "cluster": "t36", "template": "k3"}
+{"id": "open_dev_018", "lang": "sv", "split": "dev", "text": "Kan du förklara hur kompostering fungerar för en tolvåring?", "source": "topic", "cluster": "t54", "template": "k1"}
+{"id": "open_dev_019", "lang": "sv", "split": "dev", "text": "Sammanfatta i tre punkter varför vi har årstider.", "source": "topic", "cluster": "t05", "template": "k5"}
+{"id": "open_dev_020", "lang": "sv", "split": "dev", "text": "Kan du förklara varför vi har årstider för en tolvåring?", "source": "topic", "cluster": "t05", "template": "k1"}
+{"id": "open_dev_021", "lang": "sv", "split": "dev", "text": "Hur förbereder jag mig inför mitt första maraton?", "source": "standalone", "cluster": "s47", "template": null}
+{"id": "open_dev_022", "lang": "sv", "split": "dev", "text": "Sammanfatta i tre punkter varför vi får träningsvärk.", "source": "topic", "cluster": "t17", "template": "k5"}
+{"id": "open_dev_023", "lang": "sv", "split": "dev", "text": "Skriv ett kort brev till mitt framtida jag.", "source": "standalone", "cluster": "s67", "template": null}
+{"id": "open_dev_024", "lang": "sv", "split": "dev", "text": "Vad bör jag göra innan jag åker på semester?", "source": "standalone", "cluster": "s51", "template": null}
+{"id": "open_dev_025", "lang": "sv", "split": "dev", "text": "Beskriv kort vad klimatförändringar innebär.", "source": "topic", "cluster": "t15", "template": "k2"}
+{"id": "open_dev_026", "lang": "sv", "split": "dev", "text": "Jag har aldrig riktigt förstått vad klimatförändringar innebär. Kan du hjälpa mig?", "source": "topic", "cluster": "t15", "template": "k4"}
+{"id": "open_dev_027", "lang": "sv", "split": "dev", "text": "Ge ett konkret exempel som visar vad klimatförändringar innebär.", "source": "topic", "cluster": "t15", "template": "k6"}
+{"id": "open_dev_028", "lang": "sv", "split": "dev", "text": "Föreslå fem namn på ett litet kafé.", "source": "standalone", "cluster": "s13", "template": null}
+{"id": "open_dev_029", "lang": "sv", "split": "dev", "text": "Sammanfatta i tre punkter varför det blir mörkt så tidigt på vintern i Sverige.", "source": "topic", "cluster": "t33", "template": "k5"}
+{"id": "open_dev_030", "lang": "sv", "split": "dev", "text": "Sammanfatta i tre punkter vad ett pensionssystem är.", "source": "topic", "cluster": "t59", "template": "k5"}
+{"id": "open_dev_031", "lang": "sv", "split": "dev", "text": "Ge ett konkret exempel som visar hur hjärtat pumpar blod.", "source": "topic", "cluster": "t28", "template": "k6"}
+{"id": "open_dev_032", "lang": "sv", "split": "dev", "text": "Förklara varför det blir mörkt så tidigt på vintern i Sverige.", "source": "topic", "cluster": "t33", "template": "k0"}
+{"id": "open_dev_033", "lang": "sv", "split": "dev", "text": "Sammanfatta i tre punkter hur internet skickar data mellan datorer.", "source": "topic", "cluster": "t06", "template": "k5"}
+{"id": "open_dev_034", "lang": "sv", "split": "dev", "text": "Vad är det viktigaste att veta om hur en GPS vet var den är?", "source": "topic", "cluster": "t26", "template": "k7"}
+{"id": "open_dev_035", "lang": "sv", "split": "dev", "text": "Vad är det viktigaste att veta om vad ett pensionssystem är?", "source": "topic", "cluster": "t59", "template": "k7"}
+{"id": "open_dev_036", "lang": "sv", "split": "dev", "text": "Hur kan jag hjälpa en vän som känner sig ensam?", "source": "standalone", "cluster": "s71", "template": null}
+{"id": "open_dev_037", "lang": "sv", "split": "dev", "text": "Sammanfatta i tre punkter hur en elbil skiljer sig från en bensinbil.", "source": "topic", "cluster": "t12", "template": "k5"}
+{"id": "open_dev_038", "lang": "sv", "split": "dev", "text": "Jag har aldrig riktigt förstått hur kompostering fungerar. Kan du hjälpa mig?", "source": "topic", "cluster": "t54", "template": "k4"}
+{"id": "open_dev_039", "lang": "sv", "split": "dev", "text": "Kan du förklara vad biologisk mångfald är för en tolvåring?", "source": "topic", "cluster": "t51", "template": "k1"}
+{"id": "open_dev_040", "lang": "sv", "split": "dev", "text": "Sammanfatta i tre punkter vad allemansrätten innebär.", "source": "topic", "cluster": "t23", "template": "k5"}
+{"id": "open_dev_041", "lang": "sv", "split": "dev", "text": "Skriv ett kort stycke om hur en GPS vet var den är.", "source": "topic", "cluster": "t26", "template": "k3"}
+{"id": "open_dev_042", "lang": "sv", "split": "dev", "text": "Skriv ett kort stycke om varför vi får träningsvärk.", "source": "topic", "cluster": "t17", "template": "k3"}
+{"id": "open_dev_043", "lang": "sv", "split": "dev", "text": "Ge ett konkret exempel som visar varför vi får träningsvärk.", "source": "topic", "cluster": "t17", "template": "k6"}
+{"id": "open_dev_044", "lang": "sv", "split": "dev", "text": "Beskriv kort hur blixtar uppstår.", "source": "topic", "cluster": "t36", "template": "k2"}
+{"id": "open_dev_045", "lang": "sv", "split": "dev", "text": "Skriv ett kort stycke om hur internet skickar data mellan datorer.", "source": "topic", "cluster": "t06", "template": "k3"}
+{"id": "open_dev_046", "lang": "sv", "split": "dev", "text": "Ge ett konkret exempel som visar vad allemansrätten innebär.", "source": "topic", "cluster": "t23", "template": "k6"}
+{"id": "open_dev_047", "lang": "sv", "split": "dev", "text": "Förklara hur hjärtat pumpar blod.", "source": "topic", "cluster": "t28", "template": "k0"}
+{"id": "open_dev_048", "lang": "sv", "split": "dev", "text": "Beskriv kort hur internet skickar data mellan datorer.", "source": "topic", "cluster": "t06", "template": "k2"}
+{"id": "open_dev_049", "lang": "sv", "split": "dev", "text": "Jag har aldrig riktigt förstått hur vaccin skyddar mot sjukdomar. Kan du hjälpa mig?", "source": "topic", "cluster": "t04", "template": "k4"}
+{"id": "open_dev_050", "lang": "sv", "split": "dev", "text": "Föreslå en enkel middag som går att laga på tjugo minuter.", "source": "standalone", "cluster": "s02", "template": null}
+{"id": "open_dev_051", "lang": "sv", "split": "dev", "text": "Skriv ett kort stycke om varför vi har årstider.", "source": "topic", "cluster": "t05", "template": "k3"}
+{"id": "open_dev_052", "lang": "sv", "split": "dev", "text": "Förklara varför vi har årstider.", "source": "topic", "cluster": "t05", "template": "k0"}
+{"id": "open_dev_053", "lang": "sv", "split": "dev", "text": "Hur kan jag lära mig att laga mat från grunden?", "source": "standalone", "cluster": "s29", "template": null}
+{"id": "open_dev_054", "lang": "sv", "split": "dev", "text": "Förklara hur en elbil skiljer sig från en bensinbil.", "source": "topic", "cluster": "t12", "template": "k0"}
+{"id": "open_dev_055", "lang": "sv", "split": "dev", "text": "Vad är det viktigaste att veta om hur hjärtat pumpar blod?", "source": "topic", "cluster": "t28", "template": "k7"}
+{"id": "open_dev_056", "lang": "sv", "split": "dev", "text": "Jag har aldrig riktigt förstått hur en GPS vet var den är. Kan du hjälpa mig?", "source": "topic", "cluster": "t26", "template": "k4"}
+{"id": "open_dev_057", "lang": "sv", "split": "dev", "text": "Kan du förklara vad allemansrätten innebär för en tolvåring?", "source": "topic", "cluster": "t23", "template": "k1"}
+{"id": "open_dev_058", "lang": "sv", "split": "dev", "text": "Hur kan jag motivera mig själv att plugga inför en tenta?", "source": "standalone", "cluster": "s35", "template": null}
+{"id": "open_dev_059", "lang": "sv", "split": "dev", "text": "Skriv en kort berättelse om en katt som går vilse i skogen.", "source": "standalone", "cluster": "s07", "template": null}
+{"id": "open_dev_060", "lang": "sv", "split": "dev", "text": "Skriv ett kort inlägg till föreningens hemsida om vårens städdag.", "source": "standalone", "cluster": "s49", "template": null}
+{"id": "open_dev_061", "lang": "sv", "split": "dev", "text": "Vad bör man packa inför en vandring i fjällen?", "source": "standalone", "cluster": "s24", "template": null}
+{"id": "open_dev_062", "lang": "sv", "split": "dev", "text": "Sammanfatta i tre punkter vad biologisk mångfald är.", "source": "topic", "cluster": "t51", "template": "k5"}
+{"id": "open_dev_063", "lang": "sv", "split": "dev", "text": "Vad är det viktigaste att veta om varför vi får träningsvärk?", "source": "topic", "cluster": "t17", "template": "k7"}
+{"id": "open_dev_064", "lang": "sv", "split": "dev", "text": "Skriv ett kort stycke om vad ett pensionssystem är.", "source": "topic", "cluster": "t59", "template": "k3"}
+{"id": "open_dev_065", "lang": "sv", "split": "dev", "text": "Beskriv kort hur tidvatten uppstår.", "source": "topic", "cluster": "t40", "template": "k2"}
+{"id": "open_dev_066", "lang": "sv", "split": "dev", "text": "Förklara hur internet skickar data mellan datorer.", "source": "topic", "cluster": "t06", "template": "k0"}
+{"id": "open_dev_067", "lang": "sv", "split": "dev", "text": "Skriv några rader om varför du tycker om sommaren.", "source": "standalone", "cluster": "s73", "template": null}
+{"id": "open_dev_068", "lang": "sv", "split": "dev", "text": "Hjälp mig att skriva ett tack till en kollega som har hjälpt mig mycket.", "source": "standalone", "cluster": "s12", "template": null}
+{"id": "open_dev_069", "lang": "sv", "split": "dev", "text": "Jag har aldrig riktigt förstått varför det blir mörkt så tidigt på vintern i Sverige. Kan du hjälpa mig?", "source": "topic", "cluster": "t33", "template": "k4"}
+{"id": "open_dev_070", "lang": "sv", "split": "dev", "text": "Vad är ett bra sätt att lära sig spela gitarr?", "source": "standalone", "cluster": "s62", "template": null}
+{"id": "open_dev_071", "lang": "sv", "split": "dev", "text": "Ge ett konkret exempel som visar hur en elbil skiljer sig från en bensinbil.", "source": "topic", "cluster": "t12", "template": "k6"}
+{"id": "open_dev_072", "lang": "sv", "split": "dev", "text": "Skriv ett kort stycke om varför det blir mörkt så tidigt på vintern i Sverige.", "source": "topic", "cluster": "t33", "template": "k3"}
+{"id": "open_dev_073", "lang": "sv", "split": "dev", "text": "Förklara hur tidvatten uppstår.", "source": "topic", "cluster": "t40", "template": "k0"}
+{"id": "open_dev_074", "lang": "sv", "split": "dev", "text": "Vad ska jag tänka på när jag köper en begagnad cykel?", "source": "standalone", "cluster": "s06", "template": null}
+{"id": "open_dev_075", "lang": "sv", "split": "dev", "text": "Förklara hur vaccin skyddar mot sjukdomar.", "source": "topic", "cluster": "t04", "template": "k0"}
+{"id": "open_dev_076", "lang": "sv", "split": "dev", "text": "Förklara vad biologisk mångfald är.", "source": "topic", "cluster": "t51", "template": "k0"}
+{"id": "open_dev_077", "lang": "sv", "split": "dev", "text": "Skriv ett kort stycke om hur en elbil skiljer sig från en bensinbil.", "source": "topic", "cluster": "t12", "template": "k3"}
+{"id": "open_dev_078", "lang": "sv", "split": "dev", "text": "Ge ett konkret exempel som visar hur blixtar uppstår.", "source": "topic", "cluster": "t36", "template": "k6"}
+{"id": "open_dev_079", "lang": "sv", "split": "dev", "text": "Vad är det viktigaste att veta om hur kompostering fungerar?", "source": "topic", "cluster": "t54", "template": "k7"}

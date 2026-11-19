@@ -1,0 +1,120 @@
+{"id": "open_test_000", "lang": "en", "split": "test", "text": "Explain what the Swedish parliament does.", "source": "topic", "cluster": "t39", "template": "k0"}
+{"id": "open_test_001", "lang": "en", "split": "test", "text": "I have never really understood how wind power works. Can you help me?", "source": "topic", "cluster": "t60", "template": "k4"}
+{"id": "open_test_002", "lang": "en", "split": "test", "text": "Summarize in three bullet points what the Swedish parliament does.", "source": "topic", "cluster": "t39", "template": "k5"}
+{"id": "open_test_003", "lang": "en", "split": "test", "text": "Give a concrete example that shows how yeast makes bread rise.", "source": "topic", "cluster": "t34", "template": "k6"}
+{"id": "open_test_004", "lang": "en", "split": "test", "text": "Summarize in three bullet points why people should sort their waste for recycling.", "source": "topic", "cluster": "t25", "template": "k5"}
+{"id": "open_test_005", "lang": "en", "split": "test", "text": "Write a short product description for a waterproof backpack.", "source": "standalone", "cluster": "s15", "template": null}
+{"id": "open_test_006", "lang": "en", "split": "test", "text": "What is the most important thing to know about what a municipality is responsible for?", "source": "topic", "cluster": "t68", "template": "k7"}
+{"id": "open_test_007", "lang": "en", "split": "test", "text": "How can I improve my posture?", "source": "standalone", "cluster": "s65", "template": null}
+{"id": "open_test_008", "lang": "en", "split": "test", "text": "Briefly describe how plants take up water.", "source": "topic", "cluster": "t48", "template": "k2"}
+{"id": "open_test_009", "lang": "en", "split": "test", "text": "Write a short paragraph about why the moon looks different over the course of a month.", "source": "topic", "cluster": "t53", "template": "k3"}
+{"id": "open_test_010", "lang": "en", "split": "test", "text": "Briefly describe why ice floats on water.", "source": "topic", "cluster": "t29", "template": "k2"}
+{"id": "open_test_011", "lang": "en", "split": "test", "text": "What is the most important thing to know about why leaves change colour in autumn?", "source": "topic", "cluster": "t09", "template": "k7"}
+{"id": "open_test_012", "lang": "en", "split": "test", "text": "I have never really understood how plants take up water. Can you help me?", "source": "topic", "cluster": "t48", "template": "k4"}
+{"id": "open_test_013", "lang": "en", "split": "test", "text": "Give a concrete example that shows what source criticism is.", "source": "topic", "cluster": "t64", "template": "k6"}
+{"id": "open_test_014", "lang": "en", "split": "test", "text": "Write a short review of a made-up restaurant.", "source": "standalone", "cluster": "s22", "template": null}
+{"id": "open_test_015", "lang": "en", "split": "test", "text": "I have never really understood why we need vitamins. Can you help me?", "source": "topic", "cluster": "t37", "template": "k4"}
+{"id": "open_test_016", "lang": "en", "split": "test", "text": "Can you explain how antibiotics work to a twelve-year-old?", "source": "topic", "cluster": "t58", "template": "k1"}
+{"id": "open_test_017", "lang": "en", "split": "test", "text": "Briefly describe how an aeroplane can fly.", "source": "topic", "cluster": "t50", "template": "k2"}
+{"id": "open_test_018", "lang": "en", "split": "test", "text": "I have never really understood how an aeroplane can fly. Can you help me?", "source": "topic", "cluster": "t50", "template": "k4"}
+{"id": "open_test_019", "lang": "en", "split": "test", "text": "Write a short paragraph about how wind power works.", "source": "topic", "cluster": "t60", "template": "k3"}
+{"id": "open_test_020", "lang": "en", "split": "test", "text": "Can you explain how yeast makes bread rise to a twelve-year-old?", "source": "topic", "cluster": "t34", "template": "k1"}
+{"id": "open_test_021", "lang": "en", "split": "test", "text": "Summarize in three bullet points what a pandemic is.", "source": "topic", "cluster": "t55", "template": "k5"}
+{"id": "open_test_022", "lang": "en", "split": "test", "text": "Explain how yeast makes bread rise.", "source": "topic", "cluster": "t34", "template": "k0"}
+{"id": "open_test_023", "lang": "en", "split": "test", "text": "Write a short text introducing myself at a new job.", "source": "standalone", "cluster": "s58", "template": null}
+{"id": "open_test_024", "lang": "en", "split": "test", "text": "Can you explain why people should sort their waste for recycling to a twelve-year-old?", "source": "topic", "cluster": "t25", "template": "k1"}
+{"id": "open_test_025", "lang": "en", "split": "test", "text": "How do I plan my week so that I have time for both work and exercise?", "source": "standalone", "cluster": "s26", "template": null}
+{"id": "open_test_026", "lang": "en", "split": "test", "text": "Write a short paragraph about what an algorithm is.", "source": "topic", "cluster": "t47", "template": "k3"}
+{"id": "open_test_027", "lang": "en", "split": "test", "text": "Give a concrete example that shows how a democracy works.", "source": "topic", "cluster": "t08", "template": "k6"}
+{"id": "open_test_028", "lang": "en", "split": "test", "text": "What is the most important thing to know about how glass is made?", "source": "topic", "cluster": "t69", "template": "k7"}
+{"id": "open_test_029", "lang": "en", "split": "test", "text": "Suggest a day plan for a tourist in Stockholm.", "source": "standalone", "cluster": "s36", "template": null}
+{"id": "open_test_030", "lang": "en", "split": "test", "text": "Suggest a menu for a Christmas dinner for six people.", "source": "standalone", "cluster": "s27", "template": null}
+{"id": "open_test_031", "lang": "en", "split": "test", "text": "Give a concrete example that shows why people should sort their waste for recycling.", "source": "topic", "cluster": "t25", "template": "k6"}
+{"id": "open_test_032", "lang": "en", "split": "test", "text": "Briefly describe what the Swedish parliament does.", "source": "topic", "cluster": "t39", "template": "k2"}
+{"id": "open_test_033", "lang": "en", "split": "test", "text": "What is the most important thing to know about what source criticism is?", "source": "topic", "cluster": "t64", "template": "k7"}
+{"id": "open_test_034", "lang": "en", "split": "test", "text": "I have never really understood why leaves change colour in autumn. Can you help me?", "source": "topic", "cluster": "t09", "template": "k4"}
+{"id": "open_test_035", "lang": "en", "split": "test", "text": "Summarize in three bullet points why birds migrate south in autumn.", "source": "topic", "cluster": "t41", "template": "k5"}
+{"id": "open_test_036", "lang": "en", "split": "test", "text": "What is the most important thing to know about how a democracy works?", "source": "topic", "cluster": "t08", "template": "k7"}
+{"id": "open_test_037", "lang": "en", "split": "test", "text": "I have never really understood how to start a small business. Can you help me?", "source": "topic", "cluster": "t52", "template": "k4"}
+{"id": "open_test_038", "lang": "en", "split": "test", "text": "Write a short news item about a new library opening in a small town.", "source": "standalone", "cluster": "s64", "template": null}
+{"id": "open_test_039", "lang": "en", "split": "test", "text": "Briefly describe why birds migrate south in autumn.", "source": "topic", "cluster": "t41", "template": "k2"}
+{"id": "open_test_040", "lang": "en", "split": "test", "text": "Briefly describe why people should sort their waste for recycling.", "source": "topic", "cluster": "t25", "template": "k2"}
+{"id": "open_test_041", "lang": "en", "split": "test", "text": "Briefly describe how earthquakes happen.", "source": "topic", "cluster": "t16", "template": "k2"}
+{"id": "open_test_042", "lang": "en", "split": "test", "text": "Explain why the stars twinkle.", "source": "topic", "cluster": "t70", "template": "k0"}
+{"id": "open_test_043", "lang": "en", "split": "test", "text": "How do I handle a conflict with a neighbour?", "source": "standalone", "cluster": "s33", "template": null}
+{"id": "open_test_044", "lang": "en", "split": "test", "text": "Write a short paragraph about what source criticism is.", "source": "topic", "cluster": "t64", "template": "k3"}
+{"id": "open_test_045", "lang": "en", "split": "test", "text": "Can you explain what the Swedish parliament does to a twelve-year-old?", "source": "topic", "cluster": "t39", "template": "k1"}
+{"id": "open_test_046", "lang": "en", "split": "test", "text": "Briefly describe what a pandemic is.", "source": "topic", "cluster": "t55", "template": "k2"}
+{"id": "open_test_047", "lang": "en", "split": "test", "text": "Briefly describe what a municipality is responsible for.", "source": "topic", "cluster": "t68", "template": "k2"}
+{"id": "open_test_048", "lang": "en", "split": "test", "text": "Briefly describe how yeast makes bread rise.", "source": "topic", "cluster": "t34", "template": "k2"}
+{"id": "open_test_049", "lang": "en", "split": "test", "text": "Can you explain what an algorithm is to a twelve-year-old?", "source": "topic", "cluster": "t47", "template": "k1"}
+{"id": "open_test_050", "lang": "en", "split": "test", "text": "Write a short paragraph about why the stars twinkle.", "source": "topic", "cluster": "t70", "template": "k3"}
+{"id": "open_test_051", "lang": "en", "split": "test", "text": "Summarize in three bullet points how a solar cell turns sunlight into electricity.", "source": "topic", "cluster": "t22", "template": "k5"}
+{"id": "open_test_052", "lang": "en", "split": "test", "text": "Write a friendly reply to a customer who is complaining about a late delivery.", "source": "standalone", "cluster": "s25", "template": null}
+{"id": "open_test_053", "lang": "en", "split": "test", "text": "How can I become a better listener?", "source": "standalone", "cluster": "s50", "template": null}
+{"id": "open_test_054", "lang": "en", "split": "test", "text": "How should I think when choosing a gym membership?", "source": "standalone", "cluster": "s42", "template": null}
+{"id": "open_test_055", "lang": "en", "split": "test", "text": "How do I care for a houseplant that is wilting?", "source": "standalone", "cluster": "s14", "template": null}
+{"id": "open_test_056", "lang": "en", "split": "test", "text": "Which plants are easy to grow on a balcony?", "source": "standalone", "cluster": "s66", "template": null}
+{"id": "open_test_057", "lang": "en", "split": "test", "text": "Give a concrete example that shows why ice floats on water.", "source": "topic", "cluster": "t29", "template": "k6"}
+{"id": "open_test_058", "lang": "en", "split": "test", "text": "Summarize in three bullet points how to start a small business.", "source": "topic", "cluster": "t52", "template": "k5"}
+{"id": "open_test_059", "lang": "en", "split": "test", "text": "Can you explain why we need vitamins to a twelve-year-old?", "source": "topic", "cluster": "t37", "template": "k1"}
+{"id": "open_test_060", "lang": "en", "split": "test", "text": "Can you explain why the moon looks different over the course of a month to a twelve-year-old?", "source": "topic", "cluster": "t53", "template": "k1"}
+{"id": "open_test_061", "lang": "en", "split": "test", "text": "Suggest three simple exercises you can do at your desk.", "source": "standalone", "cluster": "s54", "template": null}
+{"id": "open_test_062", "lang": "en", "split": "test", "text": "Give me advice on how to become more organised.", "source": "standalone", "cluster": "s41", "template": null}
+{"id": "open_test_063", "lang": "en", "split": "test", "text": "I have never really understood why ice floats on water. Can you help me?", "source": "topic", "cluster": "t29", "template": "k4"}
+{"id": "open_test_064", "lang": "en", "split": "test", "text": "Give a concrete example that shows why leaves change colour in autumn.", "source": "topic", "cluster": "t09", "template": "k6"}
+{"id": "open_test_065", "lang": "en", "split": "test", "text": "Write a short paragraph about how antibiotics work.", "source": "topic", "cluster": "t58", "template": "k3"}
+{"id": "open_test_066", "lang": "en", "split": "test", "text": "Summarize in three bullet points how earthquakes happen.", "source": "topic", "cluster": "t16", "template": "k5"}
+{"id": "open_test_067", "lang": "en", "split": "test", "text": "Briefly describe why leaves change colour in autumn.", "source": "topic", "cluster": "t09", "template": "k2"}
+{"id": "open_test_068", "lang": "en", "split": "test", "text": "Summarize in three bullet points what an algorithm is.", "source": "topic", "cluster": "t47", "template": "k5"}
+{"id": "open_test_069", "lang": "en", "split": "test", "text": "Suggest some ways to reduce my screen time.", "source": "standalone", "cluster": "s45", "template": null}
+{"id": "open_test_070", "lang": "en", "split": "test", "text": "How can I reduce my food waste?", "source": "standalone", "cluster": "s60", "template": null}
+{"id": "open_test_071", "lang": "en", "split": "test", "text": "Summarize in three bullet points why we need vitamins.", "source": "topic", "cluster": "t37", "template": "k5"}
+{"id": "open_test_072", "lang": "en", "split": "test", "text": "Write a short paragraph about why ice floats on water.", "source": "topic", "cluster": "t29", "template": "k3"}
+{"id": "open_test_073", "lang": "en", "split": "test", "text": "Write a short text about why reading is important for children.", "source": "standalone", "cluster": "s40", "template": null}
+{"id": "open_test_074", "lang": "en", "split": "test", "text": "Write an invitation to a birthday party for my daughter who is turning seven.", "source": "standalone", "cluster": "s10", "template": null}
+{"id": "open_test_075", "lang": "en", "split": "test", "text": "Write an email declining a job offer.", "source": "standalone", "cluster": "s37", "template": null}
+{"id": "open_test_076", "lang": "en", "split": "test", "text": "Can you explain how to start a small business to a twelve-year-old?", "source": "topic", "cluster": "t52", "template": "k1"}
+{"id": "open_test_077", "lang": "en", "split": "test", "text": "What is the most important thing to know about why birds migrate south in autumn?", "source": "topic", "cluster": "t41", "template": "k7"}
+{"id": "open_test_078", "lang": "en", "split": "test", "text": "Can you explain how earthquakes happen to a twelve-year-old?", "source": "topic", "cluster": "t16", "template": "k1"}
+{"id": "open_test_079", "lang": "en", "split": "test", "text": "Write a short paragraph about how to start a small business.", "source": "topic", "cluster": "t52", "template": "k3"}
+{"id": "open_test_080", "lang": "en", "split": "test", "text": "Give a concrete example that shows how plants take up water.", "source": "topic", "cluster": "t48", "template": "k6"}
+{"id": "open_test_081", "lang": "en", "split": "test", "text": "I have never really understood why birds migrate south in autumn. Can you help me?", "source": "topic", "cluster": "t41", "template": "k4"}
+{"id": "open_test_082", "lang": "en", "split": "test", "text": "Summarize in three bullet points what a municipality is responsible for.", "source": "topic", "cluster": "t68", "template": "k5"}
+{"id": "open_test_083", "lang": "en", "split": "test", "text": "I have never really understood how a solar cell turns sunlight into electricity. Can you help me?", "source": "topic", "cluster": "t22", "template": "k4"}
+{"id": "open_test_084", "lang": "en", "split": "test", "text": "Explain what a pandemic is.", "source": "topic", "cluster": "t55", "template": "k0"}
+{"id": "open_test_085", "lang": "en", "split": "test", "text": "Briefly describe how a solar cell turns sunlight into electricity.", "source": "topic", "cluster": "t22", "template": "k2"}
+{"id": "open_test_086", "lang": "en", "split": "test", "text": "Write a short poem about autumn.", "source": "standalone", "cluster": "s03", "template": null}
+{"id": "open_test_087", "lang": "en", "split": "test", "text": "Briefly describe how a democracy works.", "source": "topic", "cluster": "t08", "template": "k2"}
+{"id": "open_test_088", "lang": "en", "split": "test", "text": "Write a short ad to sell a used sofa.", "source": "standalone", "cluster": "s31", "template": null}
+{"id": "open_test_089", "lang": "en", "split": "test", "text": "Write a short description of a dream holiday.", "source": "standalone", "cluster": "s70", "template": null}
+{"id": "open_test_090", "lang": "en", "split": "test", "text": "Give me a recipe for pancakes.", "source": "standalone", "cluster": "s17", "template": null}
+{"id": "open_test_091", "lang": "en", "split": "test", "text": "Summarize in three bullet points how glass is made.", "source": "topic", "cluster": "t69", "template": "k5"}
+{"id": "open_test_092", "lang": "en", "split": "test", "text": "I have never really understood why the moon looks different over the course of a month. Can you help me?", "source": "topic", "cluster": "t53", "template": "k4"}
+{"id": "open_test_093", "lang": "en", "split": "test", "text": "Write a short speech for a friend's wedding.", "source": "standalone", "cluster": "s19", "template": null}
+{"id": "open_test_094", "lang": "en", "split": "test", "text": "Explain how an aeroplane can fly.", "source": "topic", "cluster": "t50", "template": "k0"}
+{"id": "open_test_095", "lang": "en", "split": "test", "text": "How can I make my flat more energy efficient?", "source": "standalone", "cluster": "s21", "template": null}
+{"id": "open_test_096", "lang": "en", "split": "test", "text": "Write a short paragraph about how glass is made.", "source": "topic", "cluster": "t69", "template": "k3"}
+{"id": "open_test_097", "lang": "en", "split": "test", "text": "Briefly describe why the moon looks different over the course of a month.", "source": "topic", "cluster": "t53", "template": "k2"}
+{"id": "open_test_098", "lang": "en", "split": "test", "text": "Can you explain how a democracy works to a twelve-year-old?", "source": "topic", "cluster": "t08", "template": "k1"}
+{"id": "open_test_099", "lang": "en", "split": "test", "text": "Give me three arguments for cycling to work.", "source": "standalone", "cluster": "s32", "template": null}
+{"id": "open_test_100", "lang": "en", "split": "test", "text": "Summarize in three bullet points what source criticism is.", "source": "topic", "cluster": "t64", "template": "k5"}
+{"id": "open_test_101", "lang": "en", "split": "test", "text": "Explain how wind power works.", "source": "topic", "cluster": "t60", "template": "k0"}
+{"id": "open_test_102", "lang": "en", "split": "test", "text": "Write a short paragraph about how plants take up water.", "source": "topic", "cluster": "t48", "template": "k3"}
+{"id": "open_test_103", "lang": "en", "split": "test", "text": "What is the most important thing to know about what an algorithm is?", "source": "topic", "cluster": "t47", "template": "k7"}
+{"id": "open_test_104", "lang": "en", "split": "test", "text": "Can you explain how an aeroplane can fly to a twelve-year-old?", "source": "topic", "cluster": "t50", "template": "k1"}
+{"id": "open_test_105", "lang": "en", "split": "test", "text": "Write a short paragraph about what a pandemic is.", "source": "topic", "cluster": "t55", "template": "k3"}
+{"id": "open_test_106", "lang": "en", "split": "test", "text": "I have never really understood why the stars twinkle. Can you help me?", "source": "topic", "cluster": "t70", "template": "k4"}
+{"id": "open_test_107", "lang": "en", "split": "test", "text": "Can you explain how wind power works to a twelve-year-old?", "source": "topic", "cluster": "t60", "template": "k1"}
+{"id": "open_test_108", "lang": "en", "split": "test", "text": "Give a concrete example that shows how antibiotics work.", "source": "topic", "cluster": "t58", "template": "k6"}
+{"id": "open_test_109", "lang": "en", "split": "test", "text": "Write a short paragraph about what a municipality is responsible for.", "source": "topic", "cluster": "t68", "template": "k3"}
+{"id": "open_test_110", "lang": "en", "split": "test", "text": "Write a short paragraph about how a solar cell turns sunlight into electricity.", "source": "topic", "cluster": "t22", "template": "k3"}
+{"id": "open_test_111", "lang": "en", "split": "test", "text": "How can I get my children to eat more vegetables?", "source": "standalone", "cluster": "s53", "template": null}
+{"id": "open_test_112", "lang": "en", "split": "test", "text": "Write a short paragraph about why we need vitamins.", "source": "topic", "cluster": "t37", "template": "k3"}
+{"id": "open_test_113", "lang": "en", "split": "test", "text": "How can I take better photos with my phone?", "source": "standalone", "cluster": "s56", "template": null}
+{"id": "open_test_114", "lang": "en", "split": "test", "text": "What is the most important thing to know about why the stars twinkle?", "source": "topic", "cluster": "t70", "template": "k7"}
+{"id": "open_test_115", "lang": "en", "split": "test", "text": "What can I do to feel less stressed at work?", "source": "standalone", "cluster": "s16", "template": null}
+{"id": "open_test_116", "lang": "en", "split": "test", "text": "I have never really understood how earthquakes happen. Can you help me?", "source": "topic", "cluster": "t16", "template": "k4"}
+{"id": "open_test_117", "lang": "en", "split": "test", "text": "What is a good way to start meditating?", "source": "standalone", "cluster": "s38", "template": null}
+{"id": "open_test_118", "lang": "en", "split": "test", "text": "Explain how glass is made.", "source": "topic", "cluster": "t69", "template": "k0"}
+{"id": "open_test_119", "lang": "en", "split": "test", "text": "Summarize in three bullet points how antibiotics work.", "source": "topic", "cluster": "t58", "template": "k5"}

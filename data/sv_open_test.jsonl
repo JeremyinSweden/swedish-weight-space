@@ -1,0 +1,120 @@
+{"id": "open_test_000", "lang": "sv", "split": "test", "text": "Förklara vad riksdagen gör.", "source": "topic", "cluster": "t39", "template": "k0"}
+{"id": "open_test_001", "lang": "sv", "split": "test", "text": "Jag har aldrig riktigt förstått hur vindkraft fungerar. Kan du hjälpa mig?", "source": "topic", "cluster": "t60", "template": "k4"}
+{"id": "open_test_002", "lang": "sv", "split": "test", "text": "Sammanfatta i tre punkter vad riksdagen gör.", "source": "topic", "cluster": "t39", "template": "k5"}
+{"id": "open_test_003", "lang": "sv", "split": "test", "text": "Ge ett konkret exempel som visar hur jäst får bröd att jäsa.", "source": "topic", "cluster": "t34", "template": "k6"}
+{"id": "open_test_004", "lang": "sv", "split": "test", "text": "Sammanfatta i tre punkter varför man ska källsortera.", "source": "topic", "cluster": "t25", "template": "k5"}
+{"id": "open_test_005", "lang": "sv", "split": "test", "text": "Skriv en kort produktbeskrivning för en vattentät ryggsäck.", "source": "standalone", "cluster": "s15", "template": null}
+{"id": "open_test_006", "lang": "sv", "split": "test", "text": "Vad är det viktigaste att veta om vad en kommun ansvarar för?", "source": "topic", "cluster": "t68", "template": "k7"}
+{"id": "open_test_007", "lang": "sv", "split": "test", "text": "Hur kan jag förbättra min hållning?", "source": "standalone", "cluster": "s65", "template": null}
+{"id": "open_test_008", "lang": "sv", "split": "test", "text": "Beskriv kort hur växter tar upp vatten.", "source": "topic", "cluster": "t48", "template": "k2"}
+{"id": "open_test_009", "lang": "sv", "split": "test", "text": "Skriv ett kort stycke om varför månen ser olika ut under en månad.", "source": "topic", "cluster": "t53", "template": "k3"}
+{"id": "open_test_010", "lang": "sv", "split": "test", "text": "Beskriv kort varför is flyter på vatten.", "source": "topic", "cluster": "t29", "template": "k2"}
+{"id": "open_test_011", "lang": "sv", "split": "test", "text": "Vad är det viktigaste att veta om varför löven byter färg på hösten?", "source": "topic", "cluster": "t09", "template": "k7"}
+{"id": "open_test_012", "lang": "sv", "split": "test", "text": "Jag har aldrig riktigt förstått hur växter tar upp vatten. Kan du hjälpa mig?", "source": "topic", "cluster": "t48", "template": "k4"}
+{"id": "open_test_013", "lang": "sv", "split": "test", "text": "Ge ett konkret exempel som visar vad källkritik är.", "source": "topic", "cluster": "t64", "template": "k6"}
+{"id": "open_test_014", "lang": "sv", "split": "test", "text": "Skriv en kort recension av en påhittad restaurang.", "source": "standalone", "cluster": "s22", "template": null}
+{"id": "open_test_015", "lang": "sv", "split": "test", "text": "Jag har aldrig riktigt förstått varför vi behöver vitaminer. Kan du hjälpa mig?", "source": "topic", "cluster": "t37", "template": "k4"}
+{"id": "open_test_016", "lang": "sv", "split": "test", "text": "Kan du förklara hur antibiotika verkar för en tolvåring?", "source": "topic", "cluster": "t58", "template": "k1"}
+{"id": "open_test_017", "lang": "sv", "split": "test", "text": "Beskriv kort hur ett flygplan kan flyga.", "source": "topic", "cluster": "t50", "template": "k2"}
+{"id": "open_test_018", "lang": "sv", "split": "test", "text": "Jag har aldrig riktigt förstått hur ett flygplan kan flyga. Kan du hjälpa mig?", "source": "topic", "cluster": "t50", "template": "k4"}
+{"id": "open_test_019", "lang": "sv", "split": "test", "text": "Skriv ett kort stycke om hur vindkraft fungerar.", "source": "topic", "cluster": "t60", "template": "k3"}
+{"id": "open_test_020", "lang": "sv", "split": "test", "text": "Kan du förklara hur jäst får bröd att jäsa för en tolvåring?", "source": "topic", "cluster": "t34", "template": "k1"}
+{"id": "open_test_021", "lang": "sv", "split": "test", "text": "Sammanfatta i tre punkter vad en pandemi är.", "source": "topic", "cluster": "t55", "template": "k5"}
+{"id": "open_test_022", "lang": "sv", "split": "test", "text": "Förklara hur jäst får bröd att jäsa.", "source": "topic", "cluster": "t34", "template": "k0"}
+{"id": "open_test_023", "lang": "sv", "split": "test", "text": "Skriv en kort text där jag presenterar mig själv på ett nytt jobb.", "source": "standalone", "cluster": "s58", "template": null}
+{"id": "open_test_024", "lang": "sv", "split": "test", "text": "Kan du förklara varför man ska källsortera för en tolvåring?", "source": "topic", "cluster": "t25", "template": "k1"}
+{"id": "open_test_025", "lang": "sv", "split": "test", "text": "Hur planerar jag min vecka så att jag hinner med både jobb och träning?", "source": "standalone", "cluster": "s26", "template": null}
+{"id": "open_test_026", "lang": "sv", "split": "test", "text": "Skriv ett kort stycke om vad en algoritm är.", "source": "topic", "cluster": "t47", "template": "k3"}
+{"id": "open_test_027", "lang": "sv", "split": "test", "text": "Ge ett konkret exempel som visar hur en demokrati fungerar.", "source": "topic", "cluster": "t08", "template": "k6"}
+{"id": "open_test_028", "lang": "sv", "split": "test", "text": "Vad är det viktigaste att veta om hur glas tillverkas?", "source": "topic", "cluster": "t69", "template": "k7"}
+{"id": "open_test_029", "lang": "sv", "split": "test", "text": "Föreslå en dagsplan för en turist i Stockholm.", "source": "standalone", "cluster": "s36", "template": null}
+{"id": "open_test_030", "lang": "sv", "split": "test", "text": "Föreslå en meny för en julmiddag för sex personer.", "source": "standalone", "cluster": "s27", "template": null}
+{"id": "open_test_031", "lang": "sv", "split": "test", "text": "Ge ett konkret exempel som visar varför man ska källsortera.", "source": "topic", "cluster": "t25", "template": "k6"}
+{"id": "open_test_032", "lang": "sv", "split": "test", "text": "Beskriv kort vad riksdagen gör.", "source": "topic", "cluster": "t39", "template": "k2"}
+{"id": "open_test_033", "lang": "sv", "split": "test", "text": "Vad är det viktigaste att veta om vad källkritik är?", "source": "topic", "cluster": "t64", "template": "k7"}
+{"id": "open_test_034", "lang": "sv", "split": "test", "text": "Jag har aldrig riktigt förstått varför löven byter färg på hösten. Kan du hjälpa mig?", "source": "topic", "cluster": "t09", "template": "k4"}
+{"id": "open_test_035", "lang": "sv", "split": "test", "text": "Sammanfatta i tre punkter varför fåglar flyttar söderut på hösten.", "source": "topic", "cluster": "t41", "template": "k5"}
+{"id": "open_test_036", "lang": "sv", "split": "test", "text": "Vad är det viktigaste att veta om hur en demokrati fungerar?", "source": "topic", "cluster": "t08", "template": "k7"}
+{"id": "open_test_037", "lang": "sv", "split": "test", "text": "Jag har aldrig riktigt förstått hur man startar ett litet företag. Kan du hjälpa mig?", "source": "topic", "cluster": "t52", "template": "k4"}
+{"id": "open_test_038", "lang": "sv", "split": "test", "text": "Skriv en kort nyhetstext om att ett nytt bibliotek öppnar i en liten stad.", "source": "standalone", "cluster": "s64", "template": null}
+{"id": "open_test_039", "lang": "sv", "split": "test", "text": "Beskriv kort varför fåglar flyttar söderut på hösten.", "source": "topic", "cluster": "t41", "template": "k2"}
+{"id": "open_test_040", "lang": "sv", "split": "test", "text": "Beskriv kort varför man ska källsortera.", "source": "topic", "cluster": "t25", "template": "k2"}
+{"id": "open_test_041", "lang": "sv", "split": "test", "text": "Beskriv kort hur jordbävningar uppstår.", "source": "topic", "cluster": "t16", "template": "k2"}
+{"id": "open_test_042", "lang": "sv", "split": "test", "text": "Förklara varför stjärnorna blinkar.", "source": "topic", "cluster": "t70", "template": "k0"}
+{"id": "open_test_043", "lang": "sv", "split": "test", "text": "Hur hanterar jag en konflikt med en granne?", "source": "standalone", "cluster": "s33", "template": null}
+{"id": "open_test_044", "lang": "sv", "split": "test", "text": "Skriv ett kort stycke om vad källkritik är.", "source": "topic", "cluster": "t64", "template": "k3"}
+{"id": "open_test_045", "lang": "sv", "split": "test", "text": "Kan du förklara vad riksdagen gör för en tolvåring?", "source": "topic", "cluster": "t39", "template": "k1"}
+{"id": "open_test_046", "lang": "sv", "split": "test", "text": "Beskriv kort vad en pandemi är.", "source": "topic", "cluster": "t55", "template": "k2"}
+{"id": "open_test_047", "lang": "sv", "split": "test", "text": "Beskriv kort vad en kommun ansvarar för.", "source": "topic", "cluster": "t68", "template": "k2"}
+{"id": "open_test_048", "lang": "sv", "split": "test", "text": "Beskriv kort hur jäst får bröd att jäsa.", "source": "topic", "cluster": "t34", "template": "k2"}
+{"id": "open_test_049", "lang": "sv", "split": "test", "text": "Kan du förklara vad en algoritm är för en tolvåring?", "source": "topic", "cluster": "t47", "template": "k1"}
+{"id": "open_test_050", "lang": "sv", "split": "test", "text": "Skriv ett kort stycke om varför stjärnorna blinkar.", "source": "topic", "cluster": "t70", "template": "k3"}
+{"id": "open_test_051", "lang": "sv", "split": "test", "text": "Sammanfatta i tre punkter hur en solcell gör el av solljus.", "source": "topic", "cluster": "t22", "template": "k5"}
+{"id": "open_test_052", "lang": "sv", "split": "test", "text": "Skriv ett vänligt svar till en kund som klagar på en försenad leverans.", "source": "standalone", "cluster": "s25", "template": null}
+{"id": "open_test_053", "lang": "sv", "split": "test", "text": "Hur kan jag bli bättre på att lyssna på andra?", "source": "standalone", "cluster": "s50", "template": null}
+{"id": "open_test_054", "lang": "sv", "split": "test", "text": "Hur ska jag tänka när jag väljer ett gymkort?", "source": "standalone", "cluster": "s42", "template": null}
+{"id": "open_test_055", "lang": "sv", "split": "test", "text": "Hur tar jag hand om en krukväxt som håller på att vissna?", "source": "standalone", "cluster": "s14", "template": null}
+{"id": "open_test_056", "lang": "sv", "split": "test", "text": "Vilka växter är lätta att odla på en balkong?", "source": "standalone", "cluster": "s66", "template": null}
+{"id": "open_test_057", "lang": "sv", "split": "test", "text": "Ge ett konkret exempel som visar varför is flyter på vatten.", "source": "topic", "cluster": "t29", "template": "k6"}
+{"id": "open_test_058", "lang": "sv", "split": "test", "text": "Sammanfatta i tre punkter hur man startar ett litet företag.", "source": "topic", "cluster": "t52", "template": "k5"}
+{"id": "open_test_059", "lang": "sv", "split": "test", "text": "Kan du förklara varför vi behöver vitaminer för en tolvåring?", "source": "topic", "cluster": "t37", "template": "k1"}
+{"id": "open_test_060", "lang": "sv", "split": "test", "text": "Kan du förklara varför månen ser olika ut under en månad för en tolvåring?", "source": "topic", "cluster": "t53", "template": "k1"}
+{"id": "open_test_061", "lang": "sv", "split": "test", "text": "Föreslå tre enkla övningar som man kan göra vid skrivbordet.", "source": "standalone", "cluster": "s54", "template": null}
+{"id": "open_test_062", "lang": "sv", "split": "test", "text": "Ge mig råd om hur jag kan bli mer organiserad.", "source": "standalone", "cluster": "s41", "template": null}
+{"id": "open_test_063", "lang": "sv", "split": "test", "text": "Jag har aldrig riktigt förstått varför is flyter på vatten. Kan du hjälpa mig?", "source": "topic", "cluster": "t29", "template": "k4"}
+{"id": "open_test_064", "lang": "sv", "split": "test", "text": "Ge ett konkret exempel som visar varför löven byter färg på hösten.", "source": "topic", "cluster": "t09", "template": "k6"}
+{"id": "open_test_065", "lang": "sv", "split": "test", "text": "Skriv ett kort stycke om hur antibiotika verkar.", "source": "topic", "cluster": "t58", "template": "k3"}
+{"id": "open_test_066", "lang": "sv", "split": "test", "text": "Sammanfatta i tre punkter hur jordbävningar uppstår.", "source": "topic", "cluster": "t16", "template": "k5"}
+{"id": "open_test_067", "lang": "sv", "split": "test", "text": "Beskriv kort varför löven byter färg på hösten.", "source": "topic", "cluster": "t09", "template": "k2"}
+{"id": "open_test_068", "lang": "sv", "split": "test", "text": "Sammanfatta i tre punkter vad en algoritm är.", "source": "topic", "cluster": "t47", "template": "k5"}
+{"id": "open_test_069", "lang": "sv", "split": "test", "text": "Föreslå några sätt att minska min skärmtid.", "source": "standalone", "cluster": "s45", "template": null}
+{"id": "open_test_070", "lang": "sv", "split": "test", "text": "Hur kan jag minska mitt matsvinn?", "source": "standalone", "cluster": "s60", "template": null}
+{"id": "open_test_071", "lang": "sv", "split": "test", "text": "Sammanfatta i tre punkter varför vi behöver vitaminer.", "source": "topic", "cluster": "t37", "template": "k5"}
+{"id": "open_test_072", "lang": "sv", "split": "test", "text": "Skriv ett kort stycke om varför is flyter på vatten.", "source": "topic", "cluster": "t29", "template": "k3"}
+{"id": "open_test_073", "lang": "sv", "split": "test", "text": "Skriv en kort text om varför läsning är viktigt för barn.", "source": "standalone", "cluster": "s40", "template": null}
+{"id": "open_test_074", "lang": "sv", "split": "test", "text": "Skriv en inbjudan till ett födelsedagskalas för min dotter som fyller sju år.", "source": "standalone", "cluster": "s10", "template": null}
+{"id": "open_test_075", "lang": "sv", "split": "test", "text": "Skriv ett mejl där jag tackar nej till ett jobberbjudande.", "source": "standalone", "cluster": "s37", "template": null}
+{"id": "open_test_076", "lang": "sv", "split": "test", "text": "Kan du förklara hur man startar ett litet företag för en tolvåring?", "source": "topic", "cluster": "t52", "template": "k1"}
+{"id": "open_test_077", "lang": "sv", "split": "test", "text": "Vad är det viktigaste att veta om varför fåglar flyttar söderut på hösten?", "source": "topic", "cluster": "t41", "template": "k7"}
+{"id": "open_test_078", "lang": "sv", "split": "test", "text": "Kan du förklara hur jordbävningar uppstår för en tolvåring?", "source": "topic", "cluster": "t16", "template": "k1"}
+{"id": "open_test_079", "lang": "sv", "split": "test", "text": "Skriv ett kort stycke om hur man startar ett litet företag.", "source": "topic", "cluster": "t52", "template": "k3"}
+{"id": "open_test_080", "lang": "sv", "split": "test", "text": "Ge ett konkret exempel som visar hur växter tar upp vatten.", "source": "topic", "cluster": "t48", "template": "k6"}
+{"id": "open_test_081", "lang": "sv", "split": "test", "text": "Jag har aldrig riktigt förstått varför fåglar flyttar söderut på hösten. Kan du hjälpa mig?", "source": "topic", "cluster": "t41", "template": "k4"}
+{"id": "open_test_082", "lang": "sv", "split": "test", "text": "Sammanfatta i tre punkter vad en kommun ansvarar för.", "source": "topic", "cluster": "t68", "template": "k5"}
+{"id": "open_test_083", "lang": "sv", "split": "test", "text": "Jag har aldrig riktigt förstått hur en solcell gör el av solljus. Kan du hjälpa mig?", "source": "topic", "cluster": "t22", "template": "k4"}
+{"id": "open_test_084", "lang": "sv", "split": "test", "text": "Förklara vad en pandemi är.", "source": "topic", "cluster": "t55", "template": "k0"}
+{"id": "open_test_085", "lang": "sv", "split": "test", "text": "Beskriv kort hur en solcell gör el av solljus.", "source": "topic", "cluster": "t22", "template": "k2"}
+{"id": "open_test_086", "lang": "sv", "split": "test", "text": "Skriv en kort dikt om hösten.", "source": "standalone", "cluster": "s03", "template": null}
+{"id": "open_test_087", "lang": "sv", "split": "test", "text": "Beskriv kort hur en demokrati fungerar.", "source": "topic", "cluster": "t08", "template": "k2"}
+{"id": "open_test_088", "lang": "sv", "split": "test", "text": "Skriv en kort annons för att sälja en begagnad soffa.", "source": "standalone", "cluster": "s31", "template": null}
+{"id": "open_test_089", "lang": "sv", "split": "test", "text": "Skriv en kort beskrivning av en drömsemester.", "source": "standalone", "cluster": "s70", "template": null}
+{"id": "open_test_090", "lang": "sv", "split": "test", "text": "Ge mig ett recept på pannkakor.", "source": "standalone", "cluster": "s17", "template": null}
+{"id": "open_test_091", "lang": "sv", "split": "test", "text": "Sammanfatta i tre punkter hur glas tillverkas.", "source": "topic", "cluster": "t69", "template": "k5"}
+{"id": "open_test_092", "lang": "sv", "split": "test", "text": "Jag har aldrig riktigt förstått varför månen ser olika ut under en månad. Kan du hjälpa mig?", "source": "topic", "cluster": "t53", "template": "k4"}
+{"id": "open_test_093", "lang": "sv", "split": "test", "text": "Skriv ett kort tal till en väns bröllop.", "source": "standalone", "cluster": "s19", "template": null}
+{"id": "open_test_094", "lang": "sv", "split": "test", "text": "Förklara hur ett flygplan kan flyga.", "source": "topic", "cluster": "t50", "template": "k0"}
+{"id": "open_test_095", "lang": "sv", "split": "test", "text": "Hur kan jag göra min lägenhet mer energieffektiv?", "source": "standalone", "cluster": "s21", "template": null}
+{"id": "open_test_096", "lang": "sv", "split": "test", "text": "Skriv ett kort stycke om hur glas tillverkas.", "source": "topic", "cluster": "t69", "template": "k3"}
+{"id": "open_test_097", "lang": "sv", "split": "test", "text": "Beskriv kort varför månen ser olika ut under en månad.", "source": "topic", "cluster": "t53", "template": "k2"}
+{"id": "open_test_098", "lang": "sv", "split": "test", "text": "Kan du förklara hur en demokrati fungerar för en tolvåring?", "source": "topic", "cluster": "t08", "template": "k1"}
+{"id": "open_test_099", "lang": "sv", "split": "test", "text": "Ge mig tre argument för att cykla till jobbet.", "source": "standalone", "cluster": "s32", "template": null}
+{"id": "open_test_100", "lang": "sv", "split": "test", "text": "Sammanfatta i tre punkter vad källkritik är.", "source": "topic", "cluster": "t64", "template": "k5"}
+{"id": "open_test_101", "lang": "sv", "split": "test", "text": "Förklara hur vindkraft fungerar.", "source": "topic", "cluster": "t60", "template": "k0"}
+{"id": "open_test_102", "lang": "sv", "split": "test", "text": "Skriv ett kort stycke om hur växter tar upp vatten.", "source": "topic", "cluster": "t48", "template": "k3"}
+{"id": "open_test_103", "lang": "sv", "split": "test", "text": "Vad är det viktigaste att veta om vad en algoritm är?", "source": "topic", "cluster": "t47", "template": "k7"}
+{"id": "open_test_104", "lang": "sv", "split": "test", "text": "Kan du förklara hur ett flygplan kan flyga för en tolvåring?", "source": "topic", "cluster": "t50", "template": "k1"}
+{"id": "open_test_105", "lang": "sv", "split": "test", "text": "Skriv ett kort stycke om vad en pandemi är.", "source": "topic", "cluster": "t55", "template": "k3"}
+{"id": "open_test_106", "lang": "sv", "split": "test", "text": "Jag har aldrig riktigt förstått varför stjärnorna blinkar. Kan du hjälpa mig?", "source": "topic", "cluster": "t70", "template": "k4"}
+{"id": "open_test_107", "lang": "sv", "split": "test", "text": "Kan du förklara hur vindkraft fungerar för en tolvåring?", "source": "topic", "cluster": "t60", "template": "k1"}
+{"id": "open_test_108", "lang": "sv", "split": "test", "text": "Ge ett konkret exempel som visar hur antibiotika verkar.", "source": "topic", "cluster": "t58", "template": "k6"}
+{"id": "open_test_109", "lang": "sv", "split": "test", "text": "Skriv ett kort stycke om vad en kommun ansvarar för.", "source": "topic", "cluster": "t68", "template": "k3"}
+{"id": "open_test_110", "lang": "sv", "split": "test", "text": "Skriv ett kort stycke om hur en solcell gör el av solljus.", "source": "topic", "cluster": "t22", "template": "k3"}
+{"id": "open_test_111", "lang": "sv", "split": "test", "text": "Hur får jag mina barn att äta mer grönsaker?", "source": "standalone", "cluster": "s53", "template": null}
+{"id": "open_test_112", "lang": "sv", "split": "test", "text": "Skriv ett kort stycke om varför vi behöver vitaminer.", "source": "topic", "cluster": "t37", "template": "k3"}
+{"id": "open_test_113", "lang": "sv", "split": "test", "text": "Hur kan jag ta bättre bilder med mobilen?", "source": "standalone", "cluster": "s56", "template": null}
+{"id": "open_test_114", "lang": "sv", "split": "test", "text": "Vad är det viktigaste att veta om varför stjärnorna blinkar?", "source": "topic", "cluster": "t70", "template": "k7"}
+{"id": "open_test_115", "lang": "sv", "split": "test", "text": "Vad kan jag göra för att bli mindre stressad på jobbet?", "source": "standalone", "cluster": "s16", "template": null}
+{"id": "open_test_116", "lang": "sv", "split": "test", "text": "Jag har aldrig riktigt förstått hur jordbävningar uppstår. Kan du hjälpa mig?", "source": "topic", "cluster": "t16", "template": "k4"}
+{"id": "open_test_117", "lang": "sv", "split": "test", "text": "Vad är ett bra sätt att börja meditera?", "source": "standalone", "cluster": "s38", "template": null}
+{"id": "open_test_118", "lang": "sv", "split": "test", "text": "Förklara hur glas tillverkas.", "source": "topic", "cluster": "t69", "template": "k0"}
+{"id": "open_test_119", "lang": "sv", "split": "test", "text": "Sammanfatta i tre punkter hur antibiotika verkar.", "source": "topic", "cluster": "t58", "template": "k5"}

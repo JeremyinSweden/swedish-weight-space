@@ -1,0 +1,150 @@
+{"id": "open_contrast_000", "lang": "en", "split": "contrast", "text": "I have never really understood why we forget things. Can you help me?", "source": "topic", "cluster": "t49", "template": "k4"}
+{"id": "open_contrast_001", "lang": "en", "split": "contrast", "text": "I have never really understood what encryption is. Can you help me?", "source": "topic", "cluster": "t43", "template": "k4"}
+{"id": "open_contrast_002", "lang": "en", "split": "contrast", "text": "What is the most important thing to know about what encryption is?", "source": "topic", "cluster": "t43", "template": "k7"}
+{"id": "open_contrast_003", "lang": "en", "split": "contrast", "text": "Give a concrete example that shows how to prepare for a job interview.", "source": "topic", "cluster": "t62", "template": "k6"}
+{"id": "open_contrast_004", "lang": "en", "split": "contrast", "text": "Briefly describe how photosynthesis works.", "source": "topic", "cluster": "t00", "template": "k2"}
+{"id": "open_contrast_005", "lang": "en", "split": "contrast", "text": "I have never really understood how taxes are used in society. Can you help me?", "source": "topic", "cluster": "t46", "template": "k4"}
+{"id": "open_contrast_006", "lang": "en", "split": "contrast", "text": "Explain why the sea is salty.", "source": "topic", "cluster": "t21", "template": "k0"}
+{"id": "open_contrast_007", "lang": "en", "split": "contrast", "text": "Give a concrete example that shows how the body regulates its temperature.", "source": "topic", "cluster": "t63", "template": "k6"}
+{"id": "open_contrast_008", "lang": "en", "split": "contrast", "text": "Can you explain how rainbows form to a twelve-year-old?", "source": "topic", "cluster": "t44", "template": "k1"}
+{"id": "open_contrast_009", "lang": "en", "split": "contrast", "text": "Give me some ideas for activities on a rainy Sunday.", "source": "standalone", "cluster": "s08", "template": null}
+{"id": "open_contrast_010", "lang": "en", "split": "contrast", "text": "Explain what the difference is between a virus and a bacterium.", "source": "topic", "cluster": "t07", "template": "k0"}
+{"id": "open_contrast_011", "lang": "en", "split": "contrast", "text": "Can you explain how bees make honey to a twelve-year-old?", "source": "topic", "cluster": "t24", "template": "k1"}
+{"id": "open_contrast_012", "lang": "en", "split": "contrast", "text": "Summarize in three bullet points how bees make honey.", "source": "topic", "cluster": "t24", "template": "k5"}
+{"id": "open_contrast_013", "lang": "en", "split": "contrast", "text": "Can you explain how to learn a new language effectively to a twelve-year-old?", "source": "topic", "cluster": "t32", "template": "k1"}
+{"id": "open_contrast_014", "lang": "en", "split": "contrast", "text": "Briefly describe why exercise is good for the brain.", "source": "topic", "cluster": "t45", "template": "k2"}
+{"id": "open_contrast_015", "lang": "en", "split": "contrast", "text": "Write a short paragraph about how a computer stores information.", "source": "topic", "cluster": "t56", "template": "k3"}
+{"id": "open_contrast_016", "lang": "en", "split": "contrast", "text": "I have never really understood how a heat pump works. Can you help me?", "source": "topic", "cluster": "t02", "template": "k4"}
+{"id": "open_contrast_017", "lang": "en", "split": "contrast", "text": "Briefly describe why it is important to drink water.", "source": "topic", "cluster": "t66", "template": "k2"}
+{"id": "open_contrast_018", "lang": "en", "split": "contrast", "text": "What is the most important thing to know about what artificial intelligence is?", "source": "topic", "cluster": "t31", "template": "k7"}
+{"id": "open_contrast_019", "lang": "en", "split": "contrast", "text": "Explain how rainbows form.", "source": "topic", "cluster": "t44", "template": "k0"}
+{"id": "open_contrast_020", "lang": "en", "split": "contrast", "text": "Can you explain how a computer stores information to a twelve-year-old?", "source": "topic", "cluster": "t56", "template": "k1"}
+{"id": "open_contrast_021", "lang": "en", "split": "contrast", "text": "I have never really understood what an ecosystem is. Can you help me?", "source": "topic", "cluster": "t11", "template": "k4"}
+{"id": "open_contrast_022", "lang": "en", "split": "contrast", "text": "Write a short paragraph about why the sky is blue.", "source": "topic", "cluster": "t01", "template": "k3"}
+{"id": "open_contrast_023", "lang": "en", "split": "contrast", "text": "How do I get started with running if I have never exercised?", "source": "standalone", "cluster": "s09", "template": null}
+{"id": "open_contrast_024", "lang": "en", "split": "contrast", "text": "Write a short paragraph about how rainbows form.", "source": "topic", "cluster": "t44", "template": "k3"}
+{"id": "open_contrast_025", "lang": "en", "split": "contrast", "text": "I have never really understood how sound travels through the air. Can you help me?", "source": "topic", "cluster": "t65", "template": "k4"}
+{"id": "open_contrast_026", "lang": "en", "split": "contrast", "text": "Give a concrete example that shows how a microwave oven heats food.", "source": "topic", "cluster": "t42", "template": "k6"}
+{"id": "open_contrast_027", "lang": "en", "split": "contrast", "text": "Explain what encryption is.", "source": "topic", "cluster": "t43", "template": "k0"}
+{"id": "open_contrast_028", "lang": "en", "split": "contrast", "text": "I have never really understood how to keep your passwords safe. Can you help me?", "source": "topic", "cluster": "t18", "template": "k4"}
+{"id": "open_contrast_029", "lang": "en", "split": "contrast", "text": "Write a short paragraph about why exercise is good for the brain.", "source": "topic", "cluster": "t45", "template": "k3"}
+{"id": "open_contrast_030", "lang": "en", "split": "contrast", "text": "Summarize in three bullet points how the northern lights form.", "source": "topic", "cluster": "t20", "template": "k5"}
+{"id": "open_contrast_031", "lang": "en", "split": "contrast", "text": "What is the most important thing to know about why exercise is good for the brain?", "source": "topic", "cluster": "t45", "template": "k7"}
+{"id": "open_contrast_032", "lang": "en", "split": "contrast", "text": "Explain why the sky is blue.", "source": "topic", "cluster": "t01", "template": "k0"}
+{"id": "open_contrast_033", "lang": "en", "split": "contrast", "text": "I have never really understood what artificial intelligence is. Can you help me?", "source": "topic", "cluster": "t31", "template": "k4"}
+{"id": "open_contrast_034", "lang": "en", "split": "contrast", "text": "Explain what inflation is and why it happens.", "source": "topic", "cluster": "t03", "template": "k0"}
+{"id": "open_contrast_035", "lang": "en", "split": "contrast", "text": "Give a concrete example that shows how bees make honey.", "source": "topic", "cluster": "t24", "template": "k6"}
+{"id": "open_contrast_036", "lang": "en", "split": "contrast", "text": "I have never really understood how the interest on a loan is calculated. Can you help me?", "source": "topic", "cluster": "t10", "template": "k4"}
+{"id": "open_contrast_037", "lang": "en", "split": "contrast", "text": "Explain how to keep your passwords safe.", "source": "topic", "cluster": "t18", "template": "k0"}
+{"id": "open_contrast_038", "lang": "en", "split": "contrast", "text": "Summarize in three bullet points how a microwave oven heats food.", "source": "topic", "cluster": "t42", "template": "k5"}
+{"id": "open_contrast_039", "lang": "en", "split": "contrast", "text": "I have never really understood why sleep is important for health. Can you help me?", "source": "topic", "cluster": "t13", "template": "k4"}
+{"id": "open_contrast_040", "lang": "en", "split": "contrast", "text": "What is the most important thing to know about what the difference between weather and climate is?", "source": "topic", "cluster": "t27", "template": "k7"}
+{"id": "open_contrast_041", "lang": "en", "split": "contrast", "text": "What is the most important thing to know about why the sky is blue?", "source": "topic", "cluster": "t01", "template": "k7"}
+{"id": "open_contrast_042", "lang": "en", "split": "contrast", "text": "I have never really understood how shares work. Can you help me?", "source": "topic", "cluster": "t30", "template": "k4"}
+{"id": "open_contrast_043", "lang": "en", "split": "contrast", "text": "Can you explain how a refrigerator keeps food cold to a twelve-year-old?", "source": "topic", "cluster": "t14", "template": "k1"}
+{"id": "open_contrast_044", "lang": "en", "split": "contrast", "text": "What is the most important thing to know about why sleep is important for health?", "source": "topic", "cluster": "t13", "template": "k7"}
+{"id": "open_contrast_045", "lang": "en", "split": "contrast", "text": "Can you explain what the difference is between a virus and a bacterium to a twelve-year-old?", "source": "topic", "cluster": "t07", "template": "k1"}
+{"id": "open_contrast_046", "lang": "en", "split": "contrast", "text": "Explain how a battery stores energy.", "source": "topic", "cluster": "t38", "template": "k0"}
+{"id": "open_contrast_047", "lang": "en", "split": "contrast", "text": "Explain why we have time zones.", "source": "topic", "cluster": "t61", "template": "k0"}
+{"id": "open_contrast_048", "lang": "en", "split": "contrast", "text": "Give a concrete example that shows how sound travels through the air.", "source": "topic", "cluster": "t65", "template": "k6"}
+{"id": "open_contrast_049", "lang": "en", "split": "contrast", "text": "Summarize in three bullet points how a mobile network works.", "source": "topic", "cluster": "t71", "template": "k5"}
+{"id": "open_contrast_050", "lang": "en", "split": "contrast", "text": "Explain how taxes are used in society.", "source": "topic", "cluster": "t46", "template": "k0"}
+{"id": "open_contrast_051", "lang": "en", "split": "contrast", "text": "Write a short paragraph about how a battery stores energy.", "source": "topic", "cluster": "t38", "template": "k3"}
+{"id": "open_contrast_052", "lang": "en", "split": "contrast", "text": "Write a short paragraph about why it is important to drink water.", "source": "topic", "cluster": "t66", "template": "k3"}
+{"id": "open_contrast_053", "lang": "en", "split": "contrast", "text": "Summarize in three bullet points why some materials conduct electricity.", "source": "topic", "cluster": "t57", "template": "k5"}
+{"id": "open_contrast_054", "lang": "en", "split": "contrast", "text": "Can you explain why it is important to drink water to a twelve-year-old?", "source": "topic", "cluster": "t66", "template": "k1"}
+{"id": "open_contrast_055", "lang": "en", "split": "contrast", "text": "What is the most important thing to know about how to prepare for a job interview?", "source": "topic", "cluster": "t62", "template": "k7"}
+{"id": "open_contrast_056", "lang": "en", "split": "contrast", "text": "Write a short paragraph about what the difference between weather and climate is.", "source": "topic", "cluster": "t27", "template": "k3"}
+{"id": "open_contrast_057", "lang": "en", "split": "contrast", "text": "Briefly describe why the sea is salty.", "source": "topic", "cluster": "t21", "template": "k2"}
+{"id": "open_contrast_058", "lang": "en", "split": "contrast", "text": "Write a short paragraph about how shares work.", "source": "topic", "cluster": "t30", "template": "k3"}
+{"id": "open_contrast_059", "lang": "en", "split": "contrast", "text": "Can you explain how a mobile network works to a twelve-year-old?", "source": "topic", "cluster": "t71", "template": "k1"}
+{"id": "open_contrast_060", "lang": "en", "split": "contrast", "text": "Briefly describe what the difference is between a virus and a bacterium.", "source": "topic", "cluster": "t07", "template": "k2"}
+{"id": "open_contrast_061", "lang": "en", "split": "contrast", "text": "Can you explain what artificial intelligence is to a twelve-year-old?", "source": "topic", "cluster": "t31", "template": "k1"}
+{"id": "open_contrast_062", "lang": "en", "split": "contrast", "text": "Briefly describe why some materials conduct electricity.", "source": "topic", "cluster": "t57", "template": "k2"}
+{"id": "open_contrast_063", "lang": "en", "split": "contrast", "text": "Write a short paragraph about what a budget is and how to make one.", "source": "topic", "cluster": "t19", "template": "k3"}
+{"id": "open_contrast_064", "lang": "en", "split": "contrast", "text": "Explain how a computer stores information.", "source": "topic", "cluster": "t56", "template": "k0"}
+{"id": "open_contrast_065", "lang": "en", "split": "contrast", "text": "What can you do with leftover cooked rice?", "source": "standalone", "cluster": "s44", "template": null}
+{"id": "open_contrast_066", "lang": "en", "split": "contrast", "text": "Give a concrete example that shows how to keep your passwords safe.", "source": "topic", "cluster": "t18", "template": "k6"}
+{"id": "open_contrast_067", "lang": "en", "split": "contrast", "text": "Summarize in three bullet points why we have time zones.", "source": "topic", "cluster": "t61", "template": "k5"}
+{"id": "open_contrast_068", "lang": "en", "split": "contrast", "text": "Write a short paragraph about what an ecosystem is.", "source": "topic", "cluster": "t11", "template": "k3"}
+{"id": "open_contrast_069", "lang": "en", "split": "contrast", "text": "Summarize in three bullet points why we forget things.", "source": "topic", "cluster": "t49", "template": "k5"}
+{"id": "open_contrast_070", "lang": "en", "split": "contrast", "text": "Briefly describe how the northern lights form.", "source": "topic", "cluster": "t20", "template": "k2"}
+{"id": "open_contrast_071", "lang": "en", "split": "contrast", "text": "Briefly describe what an ecosystem is.", "source": "topic", "cluster": "t11", "template": "k2"}
+{"id": "open_contrast_072", "lang": "en", "split": "contrast", "text": "Give a concrete example that shows why some materials conduct electricity.", "source": "topic", "cluster": "t57", "template": "k6"}
+{"id": "open_contrast_073", "lang": "en", "split": "contrast", "text": "What is the most important thing to know about how photosynthesis works?", "source": "topic", "cluster": "t00", "template": "k7"}
+{"id": "open_contrast_074", "lang": "en", "split": "contrast", "text": "Write a short paragraph about how bees make honey.", "source": "topic", "cluster": "t24", "template": "k3"}
+{"id": "open_contrast_075", "lang": "en", "split": "contrast", "text": "I have never really understood how photosynthesis works. Can you help me?", "source": "topic", "cluster": "t00", "template": "k4"}
+{"id": "open_contrast_076", "lang": "en", "split": "contrast", "text": "Briefly describe how a refrigerator keeps food cold.", "source": "topic", "cluster": "t14", "template": "k2"}
+{"id": "open_contrast_077", "lang": "en", "split": "contrast", "text": "Summarize in three bullet points how rainbows form.", "source": "topic", "cluster": "t44", "template": "k5"}
+{"id": "open_contrast_078", "lang": "en", "split": "contrast", "text": "Explain what artificial intelligence is.", "source": "topic", "cluster": "t31", "template": "k0"}
+{"id": "open_contrast_079", "lang": "en", "split": "contrast", "text": "Give a concrete example that shows how a refrigerator keeps food cold.", "source": "topic", "cluster": "t14", "template": "k6"}
+{"id": "open_contrast_080", "lang": "en", "split": "contrast", "text": "Can you explain what a volcano is to a twelve-year-old?", "source": "topic", "cluster": "t35", "template": "k1"}
+{"id": "open_contrast_081", "lang": "en", "split": "contrast", "text": "Write a short paragraph about why we have time zones.", "source": "topic", "cluster": "t61", "template": "k3"}
+{"id": "open_contrast_082", "lang": "en", "split": "contrast", "text": "Explain why sleep is important for health.", "source": "topic", "cluster": "t13", "template": "k0"}
+{"id": "open_contrast_083", "lang": "en", "split": "contrast", "text": "Briefly describe how shares work.", "source": "topic", "cluster": "t30", "template": "k2"}
+{"id": "open_contrast_084", "lang": "en", "split": "contrast", "text": "What is the most important thing to know about why we forget things?", "source": "topic", "cluster": "t49", "template": "k7"}
+{"id": "open_contrast_085", "lang": "en", "split": "contrast", "text": "Write a short paragraph about how a mobile network works.", "source": "topic", "cluster": "t71", "template": "k3"}
+{"id": "open_contrast_086", "lang": "en", "split": "contrast", "text": "Explain what a budget is and how to make one.", "source": "topic", "cluster": "t19", "template": "k0"}
+{"id": "open_contrast_087", "lang": "en", "split": "contrast", "text": "Briefly describe why the sky is blue.", "source": "topic", "cluster": "t01", "template": "k2"}
+{"id": "open_contrast_088", "lang": "en", "split": "contrast", "text": "Write a short paragraph about how to learn a new language effectively.", "source": "topic", "cluster": "t32", "template": "k3"}
+{"id": "open_contrast_089", "lang": "en", "split": "contrast", "text": "What is the most important thing to know about how a heat pump works?", "source": "topic", "cluster": "t02", "template": "k7"}
+{"id": "open_contrast_090", "lang": "en", "split": "contrast", "text": "Summarize in three bullet points how a battery stores energy.", "source": "topic", "cluster": "t38", "template": "k5"}
+{"id": "open_contrast_091", "lang": "en", "split": "contrast", "text": "Write a short paragraph about how ants cooperate.", "source": "topic", "cluster": "t67", "template": "k3"}
+{"id": "open_contrast_092", "lang": "en", "split": "contrast", "text": "Explain how the body regulates its temperature.", "source": "topic", "cluster": "t63", "template": "k0"}
+{"id": "open_contrast_093", "lang": "en", "split": "contrast", "text": "Write a short description of a winter day in the countryside.", "source": "standalone", "cluster": "s46", "template": null}
+{"id": "open_contrast_094", "lang": "en", "split": "contrast", "text": "What is the most important thing to know about how ants cooperate?", "source": "topic", "cluster": "t67", "template": "k7"}
+{"id": "open_contrast_095", "lang": "en", "split": "contrast", "text": "Give a concrete example that shows how the interest on a loan is calculated.", "source": "topic", "cluster": "t10", "template": "k6"}
+{"id": "open_contrast_096", "lang": "en", "split": "contrast", "text": "Explain why it is important to drink water.", "source": "topic", "cluster": "t66", "template": "k0"}
+{"id": "open_contrast_097", "lang": "en", "split": "contrast", "text": "What is the most important thing to know about how taxes are used in society?", "source": "topic", "cluster": "t46", "template": "k7"}
+{"id": "open_contrast_098", "lang": "en", "split": "contrast", "text": "Can you explain why some materials conduct electricity to a twelve-year-old?", "source": "topic", "cluster": "t57", "template": "k1"}
+{"id": "open_contrast_099", "lang": "en", "split": "contrast", "text": "Explain how to learn a new language effectively.", "source": "topic", "cluster": "t32", "template": "k0"}
+{"id": "open_contrast_100", "lang": "en", "split": "contrast", "text": "Summarize in three bullet points what a budget is and how to make one.", "source": "topic", "cluster": "t19", "template": "k5"}
+{"id": "open_contrast_101", "lang": "en", "split": "contrast", "text": "How do I explain to my child why we have to brush our teeth?", "source": "standalone", "cluster": "s18", "template": null}
+{"id": "open_contrast_102", "lang": "en", "split": "contrast", "text": "Summarize in three bullet points how the interest on a loan is calculated.", "source": "topic", "cluster": "t10", "template": "k5"}
+{"id": "open_contrast_103", "lang": "en", "split": "contrast", "text": "What is the most important thing to know about why we have time zones?", "source": "topic", "cluster": "t61", "template": "k7"}
+{"id": "open_contrast_104", "lang": "en", "split": "contrast", "text": "Summarize in three bullet points why the sea is salty.", "source": "topic", "cluster": "t21", "template": "k5"}
+{"id": "open_contrast_105", "lang": "en", "split": "contrast", "text": "Give a concrete example that shows what a budget is and how to make one.", "source": "topic", "cluster": "t19", "template": "k6"}
+{"id": "open_contrast_106", "lang": "en", "split": "contrast", "text": "Can you explain what an ecosystem is to a twelve-year-old?", "source": "topic", "cluster": "t11", "template": "k1"}
+{"id": "open_contrast_107", "lang": "en", "split": "contrast", "text": "Write a short paragraph about how the body regulates its temperature.", "source": "topic", "cluster": "t63", "template": "k3"}
+{"id": "open_contrast_108", "lang": "en", "split": "contrast", "text": "Summarize in three bullet points what a volcano is.", "source": "topic", "cluster": "t35", "template": "k5"}
+{"id": "open_contrast_109", "lang": "en", "split": "contrast", "text": "How do I make a simple tomato soup?", "source": "standalone", "cluster": "s39", "template": null}
+{"id": "open_contrast_110", "lang": "en", "split": "contrast", "text": "Can you explain what inflation is and why it happens to a twelve-year-old?", "source": "topic", "cluster": "t03", "template": "k1"}
+{"id": "open_contrast_111", "lang": "en", "split": "contrast", "text": "Briefly describe what encryption is.", "source": "topic", "cluster": "t43", "template": "k2"}
+{"id": "open_contrast_112", "lang": "en", "split": "contrast", "text": "What is the most important thing to know about how a microwave oven heats food?", "source": "topic", "cluster": "t42", "template": "k7"}
+{"id": "open_contrast_113", "lang": "en", "split": "contrast", "text": "What is the most important thing to know about how the northern lights form?", "source": "topic", "cluster": "t20", "template": "k7"}
+{"id": "open_contrast_114", "lang": "en", "split": "contrast", "text": "I have never really understood what the difference is between a virus and a bacterium. Can you help me?", "source": "topic", "cluster": "t07", "template": "k4"}
+{"id": "open_contrast_115", "lang": "en", "split": "contrast", "text": "Give a concrete example that shows how a heat pump works.", "source": "topic", "cluster": "t02", "template": "k6"}
+{"id": "open_contrast_116", "lang": "en", "split": "contrast", "text": "Give a concrete example that shows how to learn a new language effectively.", "source": "topic", "cluster": "t32", "template": "k6"}
+{"id": "open_contrast_117", "lang": "en", "split": "contrast", "text": "Give a concrete example that shows how photosynthesis works.", "source": "topic", "cluster": "t00", "template": "k6"}
+{"id": "open_contrast_118", "lang": "en", "split": "contrast", "text": "Can you explain how the body regulates its temperature to a twelve-year-old?", "source": "topic", "cluster": "t63", "template": "k1"}
+{"id": "open_contrast_119", "lang": "en", "split": "contrast", "text": "Explain how to prepare for a job interview.", "source": "topic", "cluster": "t62", "template": "k0"}
+{"id": "open_contrast_120", "lang": "en", "split": "contrast", "text": "Give me tips for keeping warm during a cold winter.", "source": "standalone", "cluster": "s69", "template": null}
+{"id": "open_contrast_121", "lang": "en", "split": "contrast", "text": "Give a concrete example that shows why the sea is salty.", "source": "topic", "cluster": "t21", "template": "k6"}
+{"id": "open_contrast_122", "lang": "en", "split": "contrast", "text": "Briefly describe how to keep your passwords safe.", "source": "topic", "cluster": "t18", "template": "k2"}
+{"id": "open_contrast_123", "lang": "en", "split": "contrast", "text": "Briefly describe how a heat pump works.", "source": "topic", "cluster": "t02", "template": "k2"}
+{"id": "open_contrast_124", "lang": "en", "split": "contrast", "text": "Explain how ants cooperate.", "source": "topic", "cluster": "t67", "template": "k0"}
+{"id": "open_contrast_125", "lang": "en", "split": "contrast", "text": "Write a short fairy tale about a dragon that is afraid of fire.", "source": "standalone", "cluster": "s34", "template": null}
+{"id": "open_contrast_126", "lang": "en", "split": "contrast", "text": "Write a short paragraph about how the interest on a loan is calculated.", "source": "topic", "cluster": "t10", "template": "k3"}
+{"id": "open_contrast_127", "lang": "en", "split": "contrast", "text": "I have never really understood how a refrigerator keeps food cold. Can you help me?", "source": "topic", "cluster": "t14", "template": "k4"}
+{"id": "open_contrast_128", "lang": "en", "split": "contrast", "text": "How can I politely say no to extra tasks at work?", "source": "standalone", "cluster": "s68", "template": null}
+{"id": "open_contrast_129", "lang": "en", "split": "contrast", "text": "Briefly describe what inflation is and why it happens.", "source": "topic", "cluster": "t03", "template": "k2"}
+{"id": "open_contrast_130", "lang": "en", "split": "contrast", "text": "Give a concrete example that shows how a mobile network works.", "source": "topic", "cluster": "t71", "template": "k6"}
+{"id": "open_contrast_131", "lang": "en", "split": "contrast", "text": "Explain what a volcano is.", "source": "topic", "cluster": "t35", "template": "k0"}
+{"id": "open_contrast_132", "lang": "en", "split": "contrast", "text": "Write a short paragraph about why sleep is important for health.", "source": "topic", "cluster": "t13", "template": "k3"}
+{"id": "open_contrast_133", "lang": "en", "split": "contrast", "text": "I have never really understood how to prepare for a job interview. Can you help me?", "source": "topic", "cluster": "t62", "template": "k4"}
+{"id": "open_contrast_134", "lang": "en", "split": "contrast", "text": "Can you explain how a battery stores energy to a twelve-year-old?", "source": "topic", "cluster": "t38", "template": "k1"}
+{"id": "open_contrast_135", "lang": "en", "split": "contrast", "text": "Briefly describe how a computer stores information.", "source": "topic", "cluster": "t56", "template": "k2"}
+{"id": "open_contrast_136", "lang": "en", "split": "contrast", "text": "Give a concrete example that shows what the difference between weather and climate is.", "source": "topic", "cluster": "t27", "template": "k6"}
+{"id": "open_contrast_137", "lang": "en", "split": "contrast", "text": "What questions should I ask when I view a flat to rent?", "source": "standalone", "cluster": "s30", "template": null}
+{"id": "open_contrast_138", "lang": "en", "split": "contrast", "text": "Can you explain how ants cooperate to a twelve-year-old?", "source": "topic", "cluster": "t67", "template": "k1"}
+{"id": "open_contrast_139", "lang": "en", "split": "contrast", "text": "Write a short paragraph about how sound travels through the air.", "source": "topic", "cluster": "t65", "template": "k3"}
+{"id": "open_contrast_140", "lang": "en", "split": "contrast", "text": "Briefly describe what the difference between weather and climate is.", "source": "topic", "cluster": "t27", "template": "k2"}
+{"id": "open_contrast_141", "lang": "en", "split": "contrast", "text": "Give a concrete example that shows why we forget things.", "source": "topic", "cluster": "t49", "template": "k6"}
+{"id": "open_contrast_142", "lang": "en", "split": "contrast", "text": "What is the most important thing to know about what inflation is and why it happens?", "source": "topic", "cluster": "t03", "template": "k7"}
+{"id": "open_contrast_143", "lang": "en", "split": "contrast", "text": "Can you explain how the northern lights form to a twelve-year-old?", "source": "topic", "cluster": "t20", "template": "k1"}
+{"id": "open_contrast_144", "lang": "en", "split": "contrast", "text": "Can you explain why exercise is good for the brain to a twelve-year-old?", "source": "topic", "cluster": "t45", "template": "k1"}
+{"id": "open_contrast_145", "lang": "en", "split": "contrast", "text": "Explain how a microwave oven heats food.", "source": "topic", "cluster": "t42", "template": "k0"}
+{"id": "open_contrast_146", "lang": "en", "split": "contrast", "text": "What is the most important thing to know about how shares work?", "source": "topic", "cluster": "t30", "template": "k7"}
+{"id": "open_contrast_147", "lang": "en", "split": "contrast", "text": "Briefly describe how sound travels through the air.", "source": "topic", "cluster": "t65", "template": "k2"}
+{"id": "open_contrast_148", "lang": "en", "split": "contrast", "text": "I have never really understood what a volcano is. Can you help me?", "source": "topic", "cluster": "t35", "template": "k4"}
+{"id": "open_contrast_149", "lang": "en", "split": "contrast", "text": "Summarize in three bullet points how taxes are used in society.", "source": "topic", "cluster": "t46", "template": "k5"}

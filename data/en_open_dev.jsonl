@@ -1,0 +1,80 @@
+{"id": "open_dev_000", "lang": "en", "split": "dev", "text": "Write a short paragraph about how composting works.", "source": "topic", "cluster": "t54", "template": "k3"}
+{"id": "open_dev_001", "lang": "en", "split": "dev", "text": "Give a concrete example that shows what a pension system is.", "source": "topic", "cluster": "t59", "template": "k6"}
+{"id": "open_dev_002", "lang": "en", "split": "dev", "text": "What is the most important thing to know about how tides happen?", "source": "topic", "cluster": "t40", "template": "k7"}
+{"id": "open_dev_003", "lang": "en", "split": "dev", "text": "Give a concrete example that shows how vaccines protect against disease.", "source": "topic", "cluster": "t04", "template": "k6"}
+{"id": "open_dev_004", "lang": "en", "split": "dev", "text": "Give a concrete example that shows what biodiversity is.", "source": "topic", "cluster": "t51", "template": "k6"}
+{"id": "open_dev_005", "lang": "en", "split": "dev", "text": "Give me three tips for sleeping better.", "source": "standalone", "cluster": "s00", "template": null}
+{"id": "open_dev_006", "lang": "en", "split": "dev", "text": "What should you consider before getting a dog?", "source": "standalone", "cluster": "s57", "template": null}
+{"id": "open_dev_007", "lang": "en", "split": "dev", "text": "Give me ideas for a present for my grandmother who is turning eighty.", "source": "standalone", "cluster": "s48", "template": null}
+{"id": "open_dev_008", "lang": "en", "split": "dev", "text": "Give a concrete example that shows how tides happen.", "source": "topic", "cluster": "t40", "template": "k6"}
+{"id": "open_dev_009", "lang": "en", "split": "dev", "text": "Can you explain how the heart pumps blood to a twelve-year-old?", "source": "topic", "cluster": "t28", "template": "k1"}
+{"id": "open_dev_010", "lang": "en", "split": "dev", "text": "I have never really understood how lightning forms. Can you help me?", "source": "topic", "cluster": "t36", "template": "k4"}
+{"id": "open_dev_011", "lang": "en", "split": "dev", "text": "Plan a weekend trip to Gothenburg for two people.", "source": "standalone", "cluster": "s05", "template": null}
+{"id": "open_dev_012", "lang": "en", "split": "dev", "text": "Summarize in three bullet points how vaccines protect against disease.", "source": "topic", "cluster": "t04", "template": "k5"}
+{"id": "open_dev_013", "lang": "en", "split": "dev", "text": "Briefly describe what the Swedish right of public access means.", "source": "topic", "cluster": "t23", "template": "k2"}
+{"id": "open_dev_014", "lang": "en", "split": "dev", "text": "What are the advantages and disadvantages of working from home?", "source": "standalone", "cluster": "s11", "template": null}
+{"id": "open_dev_015", "lang": "en", "split": "dev", "text": "Explain what climate change means.", "source": "topic", "cluster": "t15", "template": "k0"}
+{"id": "open_dev_016", "lang": "en", "split": "dev", "text": "Explain how a GPS knows where it is.", "source": "topic", "cluster": "t26", "template": "k0"}
+{"id": "open_dev_017", "lang": "en", "split": "dev", "text": "Write a short paragraph about how lightning forms.", "source": "topic", "cluster": "t36", "template": "k3"}
+{"id": "open_dev_018", "lang": "en", "split": "dev", "text": "Can you explain how composting works to a twelve-year-old?", "source": "topic", "cluster": "t54", "template": "k1"}
+{"id": "open_dev_019", "lang": "en", "split": "dev", "text": "Summarize in three bullet points why we have seasons.", "source": "topic", "cluster": "t05", "template": "k5"}
+{"id": "open_dev_020", "lang": "en", "split": "dev", "text": "Can you explain why we have seasons to a twelve-year-old?", "source": "topic", "cluster": "t05", "template": "k1"}
+{"id": "open_dev_021", "lang": "en", "split": "dev", "text": "How do I prepare for my first marathon?", "source": "standalone", "cluster": "s47", "template": null}
+{"id": "open_dev_022", "lang": "en", "split": "dev", "text": "Summarize in three bullet points why we get sore muscles after exercise.", "source": "topic", "cluster": "t17", "template": "k5"}
+{"id": "open_dev_023", "lang": "en", "split": "dev", "text": "Write a short letter to my future self.", "source": "standalone", "cluster": "s67", "template": null}
+{"id": "open_dev_024", "lang": "en", "split": "dev", "text": "What should I do before I go on holiday?", "source": "standalone", "cluster": "s51", "template": null}
+{"id": "open_dev_025", "lang": "en", "split": "dev", "text": "Briefly describe what climate change means.", "source": "topic", "cluster": "t15", "template": "k2"}
+{"id": "open_dev_026", "lang": "en", "split": "dev", "text": "I have never really understood what climate change means. Can you help me?", "source": "topic", "cluster": "t15", "template": "k4"}
+{"id": "open_dev_027", "lang": "en", "split": "dev", "text": "Give a concrete example that shows what climate change means.", "source": "topic", "cluster": "t15", "template": "k6"}
+{"id": "open_dev_028", "lang": "en", "split": "dev", "text": "Suggest five names for a small café.", "source": "standalone", "cluster": "s13", "template": null}
+{"id": "open_dev_029", "lang": "en", "split": "dev", "text": "Summarize in three bullet points why it gets dark so early in winter in Sweden.", "source": "topic", "cluster": "t33", "template": "k5"}
+{"id": "open_dev_030", "lang": "en", "split": "dev", "text": "Summarize in three bullet points what a pension system is.", "source": "topic", "cluster": "t59", "template": "k5"}
+{"id": "open_dev_031", "lang": "en", "split": "dev", "text": "Give a concrete example that shows how the heart pumps blood.", "source": "topic", "cluster": "t28", "template": "k6"}
+{"id": "open_dev_032", "lang": "en", "split": "dev", "text": "Explain why it gets dark so early in winter in Sweden.", "source": "topic", "cluster": "t33", "template": "k0"}
+{"id": "open_dev_033", "lang": "en", "split": "dev", "text": "Summarize in three bullet points how the internet sends data between computers.", "source": "topic", "cluster": "t06", "template": "k5"}
+{"id": "open_dev_034", "lang": "en", "split": "dev", "text": "What is the most important thing to know about how a GPS knows where it is?", "source": "topic", "cluster": "t26", "template": "k7"}
+{"id": "open_dev_035", "lang": "en", "split": "dev", "text": "What is the most important thing to know about what a pension system is?", "source": "topic", "cluster": "t59", "template": "k7"}
+{"id": "open_dev_036", "lang": "en", "split": "dev", "text": "How can I help a friend who feels lonely?", "source": "standalone", "cluster": "s71", "template": null}
+{"id": "open_dev_037", "lang": "en", "split": "dev", "text": "Summarize in three bullet points how an electric car differs from a petrol car.", "source": "topic", "cluster": "t12", "template": "k5"}
+{"id": "open_dev_038", "lang": "en", "split": "dev", "text": "I have never really understood how composting works. Can you help me?", "source": "topic", "cluster": "t54", "template": "k4"}
+{"id": "open_dev_039", "lang": "en", "split": "dev", "text": "Can you explain what biodiversity is to a twelve-year-old?", "source": "topic", "cluster": "t51", "template": "k1"}
+{"id": "open_dev_040", "lang": "en", "split": "dev", "text": "Summarize in three bullet points what the Swedish right of public access means.", "source": "topic", "cluster": "t23", "template": "k5"}
+{"id": "open_dev_041", "lang": "en", "split": "dev", "text": "Write a short paragraph about how a GPS knows where it is.", "source": "topic", "cluster": "t26", "template": "k3"}
+{"id": "open_dev_042", "lang": "en", "split": "dev", "text": "Write a short paragraph about why we get sore muscles after exercise.", "source": "topic", "cluster": "t17", "template": "k3"}
+{"id": "open_dev_043", "lang": "en", "split": "dev", "text": "Give a concrete example that shows why we get sore muscles after exercise.", "source": "topic", "cluster": "t17", "template": "k6"}
+{"id": "open_dev_044", "lang": "en", "split": "dev", "text": "Briefly describe how lightning forms.", "source": "topic", "cluster": "t36", "template": "k2"}
+{"id": "open_dev_045", "lang": "en", "split": "dev", "text": "Write a short paragraph about how the internet sends data between computers.", "source": "topic", "cluster": "t06", "template": "k3"}
+{"id": "open_dev_046", "lang": "en", "split": "dev", "text": "Give a concrete example that shows what the Swedish right of public access means.", "source": "topic", "cluster": "t23", "template": "k6"}
+{"id": "open_dev_047", "lang": "en", "split": "dev", "text": "Explain how the heart pumps blood.", "source": "topic", "cluster": "t28", "template": "k0"}
+{"id": "open_dev_048", "lang": "en", "split": "dev", "text": "Briefly describe how the internet sends data between computers.", "source": "topic", "cluster": "t06", "template": "k2"}
+{"id": "open_dev_049", "lang": "en", "split": "dev", "text": "I have never really understood how vaccines protect against disease. Can you help me?", "source": "topic", "cluster": "t04", "template": "k4"}
+{"id": "open_dev_050", "lang": "en", "split": "dev", "text": "Suggest a simple dinner that can be cooked in twenty minutes.", "source": "standalone", "cluster": "s02", "template": null}
+{"id": "open_dev_051", "lang": "en", "split": "dev", "text": "Write a short paragraph about why we have seasons.", "source": "topic", "cluster": "t05", "template": "k3"}
+{"id": "open_dev_052", "lang": "en", "split": "dev", "text": "Explain why we have seasons.", "source": "topic", "cluster": "t05", "template": "k0"}
+{"id": "open_dev_053", "lang": "en", "split": "dev", "text": "How can I learn to cook from scratch?", "source": "standalone", "cluster": "s29", "template": null}
+{"id": "open_dev_054", "lang": "en", "split": "dev", "text": "Explain how an electric car differs from a petrol car.", "source": "topic", "cluster": "t12", "template": "k0"}
+{"id": "open_dev_055", "lang": "en", "split": "dev", "text": "What is the most important thing to know about how the heart pumps blood?", "source": "topic", "cluster": "t28", "template": "k7"}
+{"id": "open_dev_056", "lang": "en", "split": "dev", "text": "I have never really understood how a GPS knows where it is. Can you help me?", "source": "topic", "cluster": "t26", "template": "k4"}
+{"id": "open_dev_057", "lang": "en", "split": "dev", "text": "Can you explain what the Swedish right of public access means to a twelve-year-old?", "source": "topic", "cluster": "t23", "template": "k1"}
+{"id": "open_dev_058", "lang": "en", "split": "dev", "text": "How can I motivate myself to study for an exam?", "source": "standalone", "cluster": "s35", "template": null}
+{"id": "open_dev_059", "lang": "en", "split": "dev", "text": "Write a short story about a cat that gets lost in the forest.", "source": "standalone", "cluster": "s07", "template": null}
+{"id": "open_dev_060", "lang": "en", "split": "dev", "text": "Write a short post for the association's website about the spring clean-up day.", "source": "standalone", "cluster": "s49", "template": null}
+{"id": "open_dev_061", "lang": "en", "split": "dev", "text": "What should you pack for a hike in the mountains?", "source": "standalone", "cluster": "s24", "template": null}
+{"id": "open_dev_062", "lang": "en", "split": "dev", "text": "Summarize in three bullet points what biodiversity is.", "source": "topic", "cluster": "t51", "template": "k5"}
+{"id": "open_dev_063", "lang": "en", "split": "dev", "text": "What is the most important thing to know about why we get sore muscles after exercise?", "source": "topic", "cluster": "t17", "template": "k7"}
+{"id": "open_dev_064", "lang": "en", "split": "dev", "text": "Write a short paragraph about what a pension system is.", "source": "topic", "cluster": "t59", "template": "k3"}
+{"id": "open_dev_065", "lang": "en", "split": "dev", "text": "Briefly describe how tides happen.", "source": "topic", "cluster": "t40", "template": "k2"}
+{"id": "open_dev_066", "lang": "en", "split": "dev", "text": "Explain how the internet sends data between computers.", "source": "topic", "cluster": "t06", "template": "k0"}
+{"id": "open_dev_067", "lang": "en", "split": "dev", "text": "Write a few lines about why you like summer.", "source": "standalone", "cluster": "s73", "template": null}
+{"id": "open_dev_068", "lang": "en", "split": "dev", "text": "Help me write a thank-you note to a colleague who has helped me a lot.", "source": "standalone", "cluster": "s12", "template": null}
+{"id": "open_dev_069", "lang": "en", "split": "dev", "text": "I have never really understood why it gets dark so early in winter in Sweden. Can you help me?", "source": "topic", "cluster": "t33", "template": "k4"}
+{"id": "open_dev_070", "lang": "en", "split": "dev", "text": "What is a good way to learn to play the guitar?", "source": "standalone", "cluster": "s62", "template": null}
+{"id": "open_dev_071", "lang": "en", "split": "dev", "text": "Give a concrete example that shows how an electric car differs from a petrol car.", "source": "topic", "cluster": "t12", "template": "k6"}
+{"id": "open_dev_072", "lang": "en", "split": "dev", "text": "Write a short paragraph about why it gets dark so early in winter in Sweden.", "source": "topic", "cluster": "t33", "template": "k3"}
+{"id": "open_dev_073", "lang": "en", "split": "dev", "text": "Explain how tides happen.", "source": "topic", "cluster": "t40", "template": "k0"}
+{"id": "open_dev_074", "lang": "en", "split": "dev", "text": "What should I keep in mind when buying a used bicycle?", "source": "standalone", "cluster": "s06", "template": null}
+{"id": "open_dev_075", "lang": "en", "split": "dev", "text": "Explain how vaccines protect against disease.", "source": "topic", "cluster": "t04", "template": "k0"}
+{"id": "open_dev_076", "lang": "en", "split": "dev", "text": "Explain what biodiversity is.", "source": "topic", "cluster": "t51", "template": "k0"}
+{"id": "open_dev_077", "lang": "en", "split": "dev", "text": "Write a short paragraph about how an electric car differs from a petrol car.", "source": "topic", "cluster": "t12", "template": "k3"}
+{"id": "open_dev_078", "lang": "en", "split": "dev", "text": "Give a concrete example that shows how lightning forms.", "source": "topic", "cluster": "t36", "template": "k6"}
+{"id": "open_dev_079", "lang": "en", "split": "dev", "text": "What is the most important thing to know about how composting works?", "source": "topic", "cluster": "t54", "template": "k7"}
