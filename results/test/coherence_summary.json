@@ -1,0 +1,117 @@
+{
+  "rater": "Claude (Opus 5.5), blind",
+  "n_prompts": 40,
+  "scale": "1-3",
+  "by_condition": {
+    "C0": {
+      "mean": 1.05,
+      "n_rated_1": 38,
+      "n_rated_2": 2,
+      "n_rated_3": 0,
+      "mean_looping": 1.027,
+      "mean_nonlooping": 1.333
+    },
+    "C3": {
+      "mean": 1.05,
+      "n_rated_1": 38,
+      "n_rated_2": 2,
+      "n_rated_3": 0,
+      "mean_looping": 1.026,
+      "mean_nonlooping": 1.5
+    },
+    "C9": {
+      "mean": 1.175,
+      "n_rated_1": 33,
+      "n_rated_2": 7,
+      "n_rated_3": 0,
+      "mean_looping": 1,
+      "mean_nonlooping": 1.226
+    },
+    "C3def": {
+      "mean": 1.1,
+      "n_rated_1": 36,
+      "n_rated_2": 4,
+      "n_rated_3": 0,
+      "mean_looping": 1,
+      "mean_nonlooping": 1.138
+    }
+  },
+  "paired": {
+    "C3-C0": {
+      "diff": 0,
+      "ci95": [
+        0,
+        0
+      ]
+    },
+    "C9-C0": {
+      "diff": 0.125,
+      "ci95": [
+        0,
+        0.25
+      ]
+    },
+    "C3def-C9": {
+      "diff": -0.075,
+      "ci95": [
+        -0.175,
+        0
+      ]
+    },
+    "C3def-C0": {
+      "diff": 0.05,
+      "ci95": [
+        -0.075,
+        0.175
+      ]
+    }
+  },
+  "rescue_strata": {
+    "C3": {
+      "c0_looped_prompts": 37,
+      "now_not_looping": 1,
+      "rated_3": 0,
+      "mean_rating_of_rescued": 1
+    },
+    "C9": {
+      "c0_looped_prompts": 37,
+      "now_not_looping": 28,
+      "rated_3": 0,
+      "mean_rating_of_rescued": 1.214
+    },
+    "C3def": {
+      "c0_looped_prompts": 37,
+      "now_not_looping": 26,
+      "rated_3": 0,
+      "mean_rating_of_rescued": 1.154
+    }
+  },
+  "bootstrap": "paired over the 40 prompts, 5000 resamples, seed 0",
+  "author_agreement": {
+    "items": 20,
+    "agree": 17,
+    "percent_agreement": 0.85,
+    "cohens_kappa": -0.071,
+    "disagreements": [
+      {
+        "blind_id": "R084",
+        "author": 2,
+        "claude": 1,
+        "condition": "C3def"
+      },
+      {
+        "blind_id": "R089",
+        "author": 1,
+        "claude": 2,
+        "condition": "C3"
+      },
+      {
+        "blind_id": "R095",
+        "author": 1,
+        "claude": 2,
+        "condition": "C0"
+      }
+    ],
+    "note": "Both raters put almost every item at 1, so kappa is low by construction (prevalence effect); percent agreement is the more informative number here."
+  }
+}
