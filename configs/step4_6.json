@@ -1,0 +1,60 @@
+{
+  "_comment": "Steps 4-6 spec (docs/02_hypothesis.md Deviation 5). Written before any direction, dev pass or test run. Dev grid and steering values are fixed here, before any dev evaluation.",
+  "model": "qwen2.5-0.5b",
+  "seed": 20261119,
+  "max_new_tokens": 512,
+  "batch_size": 40,
+  "_batch_note": "One batch size for every pass in Steps 4-6 (direction, dev incl. a fresh C0 dev pass, test), so greedy outputs are comparable across conditions. Pilot 2 used 16.",
+  "greedy": {"do_sample": false, "repetition_penalty": 1.0},
+  "shipped_defaults": {"do_sample": true, "temperature": 0.7, "top_p": 0.8, "top_k": 20, "repetition_penalty": 1.1,
+                       "_source": "Qwen2.5-0.5B-Instruct generation_config.json, recorded in results/pilot2/repo_generation_defaults.json (Deviation 5, item 4)"},
+  "c1_system_prompt": "Svara alltid på svenska.",
+
+  "direction": {
+    "prompts": "data/contrast_sv.jsonl (all 150)",
+    "decoding": "greedy",
+    "min_responses_with_onset": 20,
+    "min_pre_onset_tokens": 4,
+    "min_in_loop_tokens": 16,
+    "activation": "residual stream after decoder layer l (hidden_states[l+1]); per-response mean over in-loop tokens minus mean over pre-onset response tokens; averaged over responses; normalized per layer",
+    "layer_choice_range": [4, 22]
+  },
+
+  "dev": {
+    "prompts": "first 40 of data/sv_open_dev.jsonl and data/en_open_dev.jsonl (same items as pilots)",
+    "default_config": {"name": "default", "layers": [15, 19], "k": 64, "alpha": 1.0,
+                       "_source": "paper p50c placement copied (Deviation 5, item 5); zero feedback passes"},
+    "grid": [
+      {"name": "g1_L15-19_k64_a2", "layers": [15, 19], "k": 64, "alpha": 2.0},
+      {"name": "g2_L15-19_k256_a1", "layers": [15, 19], "k": 256, "alpha": 1.0},
+      {"name": "g3_L15-19_k256_a2", "layers": [15, 19], "k": 256, "alpha": 2.0},
+      {"name": "g4_top2_k64_a2", "layers": "top2", "k": 64, "alpha": 2.0},
+      {"name": "g5_top2_k256_a2", "layers": "top2", "k": 256, "alpha": 2.0},
+      {"name": "g6_L15-19_k1024_a1", "layers": [15, 19], "k": 1024, "alpha": 1.0}
+    ],
+    "_top2": "the two layers in layer_choice_range with the largest separation (mean / std of per-response projected difference) in Step 4",
+    "steering_alphas": [1.0, 2.0],
+    "_steering": "C2: at the selected config's layers, h <- h - alpha_s * (h . u_l) u_l at every position (forward hook on the decoder layer output). alpha_s picked on dev with the same rule.",
+    "selection_rule": "lowest sv_open loop rate, subject to (a) en_open loop rate <= C0 dev, (b) early-stop check passes; ties -> smaller Frobenius norm of the weight change",
+    "fallback_if_none_pass": "the passing-early-stop config with the lowest sv_open loop rate; if none passes early-stop, the default config. Either case is flagged in frozen.json.",
+    "early_stop_check": "share of responses < 30 new tokens rises by <= 10 points vs baseline on sv_open and on en_open, and en_open median length within 30% of baseline"
+  },
+
+  "test": {
+    "_order": "priority order; each cell is saved when done; a re-run skips finished cells; the runner stops before a new cell after the deadline",
+    "conditions": [
+      {"id": "C0", "weights": "base", "decoding": "greedy", "sets": ["sv_open", "en_open", "sv_math", "en_math"], "ppl": true},
+      {"id": "C3", "weights": "selected", "decoding": "greedy", "sets": ["sv_open", "en_open", "sv_math", "en_math"], "ppl": true},
+      {"id": "C5s0", "weights": "random0", "decoding": "greedy", "sets": ["sv_open", "sv_math"]},
+      {"id": "C9", "weights": "base", "decoding": "shipped_defaults", "sets": ["sv_open", "en_open", "sv_math", "en_math"]},
+      {"id": "C3def", "weights": "selected", "decoding": "shipped_defaults", "sets": ["sv_open", "en_open", "sv_math", "en_math"]},
+      {"id": "C1", "weights": "base", "decoding": "greedy", "system": true, "sets": ["sv_open", "sv_math"]},
+      {"id": "C2", "weights": "base", "steer": true, "decoding": "greedy", "sets": ["sv_open", "sv_math"]},
+      {"id": "C5s1", "weights": "random1", "decoding": "greedy", "sets": ["sv_open", "sv_math"]},
+      {"id": "C5s2", "weights": "random2", "decoding": "greedy", "sets": ["sv_open", "sv_math"]}
+    ],
+    "deadline_local": "21:45",
+    "coherence": {"n": 40, "seed": 20261119, "conditions": ["C0", "C3", "C9", "C3def"], "author_subset": 20},
+    "bootstrap": {"n_boot": 2000, "cluster_field": "cluster"}
+  }
+}
