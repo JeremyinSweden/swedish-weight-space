@@ -201,3 +201,53 @@ unchanged and still unseen.
 condition, shuffled and stripped of condition labels, rated 1 (incoherent), 2 (partly coherent), 3 (coherent and on
 topic) by a frontier model with a fixed rubric. The rubric and all ratings are released. This is reported as a
 secondary measure because the rater is an LLM.
+
+### Deviation 5: decisions at checkpoint (a2), after pilot 2 (written 2026-11-19, before any edit or test-set run)
+
+Pilot 2 results are in `docs/03_lab_notes.md`. Gate: Qwen2.5-0.5B loops on 90% of Swedish open dev prompts under greedy
+decoding (threshold 40%), so **Qwen2.5-0.5B-Instruct is the model**. P1 held on open prompts (Swedish loops 68 points
+more than English) and P2 held (recommended settings: 90% to 42%). Qwen3-0.6B is not used further; it is listed as the
+next experiment (see the end of this deviation).
+
+1. **Gate scope.** "Swedish loop rate" means the `sv_open` loop rate. Loops are a property of open-ended generation;
+   math answers are short and almost never loop (2/60).
+2. **H3' is re-specified.** Paper-style rescue strata on `sv_math` are impossible: almost no math answers loop, and the
+   Swedish math gap (23% vs 82% in English) sits in non-looping answers. This is already evidence that the model's
+   Swedish weakness is missing ability, not looping. New H3' tests, on the test set:
+   - *Coherence* on `sv_open`: a fixed random sample of 40 prompts, the same prompts for every rated condition
+     (C0, C3, C9, and C3 + defaults if time allows). Responses are shuffled and stripped of condition labels, then rated
+     1 (incoherent), 2 (partly coherent, on topic), 3 (coherent and on topic) by Claude (frontier model) with a fixed
+     rubric, written before rating. The author also rates a random 20 of them blind, and agreement is reported.
+   - *Rescue strata on coherence*: for the sampled prompts where C0 looped, the share of C3 responses rated 3.
+   - *Swedish ability checks* that should not move if the edit only removes a failure: `sv_math` accuracy and `sv_ref`
+     perplexity.
+   - "Unlocks hidden ability": mean coherence of C3 is at least 0.5 higher than C0, and at least 30% of rescued
+     responses are rated 3. "Removes the failure only": the loop rate falls by at least 20 points, but mean coherence
+     rises by less than 0.3 and `sv_math` changes by less than 5 points. Anything else: unclear.
+3. **Early-stop check is re-specified.** The old version rested on 4 responses. New version: the share of `sv_open` and
+   `en_open` responses shorter than 30 tokens must not rise by more than 10 points versus the same decoding's baseline,
+   and the median length of `en_open` responses must stay within 30% of baseline.
+4. **C9 uses the model's shipped defaults.** The repository's `generation_config.json` (sampling T=0.7, top_p=0.8,
+   top_k=20, `repetition_penalty=1.1`) replaces the 1.05 value in Deviation 4, which was written from memory and
+   was not checked against a source. Shipped defaults are what a user gets from `generate()` without changes, so they are
+   the most realistic inference-side alternative. Pilot 2's 1.05 results stay in the lab notes as dev evidence.
+   Consequence for the report: the greedy, no-penalty setting that produces 90% loops is not the default setting.
+   The edit is evaluated where the failure is strongest (greedy) and also on top of the shipped defaults.
+5. **Zero-feedback default configuration for H4' (fixed now, before any dev pass):** the paper's p50c placement copied
+   directly: MLP `down_proj` of layers 15 and 19 (Qwen2.5-0.5B also has 24 layers), `k = 64` columns per layer,
+   `alpha = 1.0`.
+6. **Dev selection budget.** At most 6 configurations besides the default, each evaluated on the 40 `sv_open` and the
+   40 `en_open` dev prompts under greedy decoding, every pass logged. Selection rule, fixed now: lowest `sv_open` loop
+   rate, subject to `en_open` loop rate not above C0's and the early-stop check passing; ties go to the smaller weight
+   change (Frobenius norm). The direction `u` is computed once from `contrast_sv` and is not re-estimated per
+   configuration.
+7. **Scope cuts for time** (about 75 minutes of test compute available):
+   - Greedy decoding only for C0, C1, C2, C3, C5; one sampling seed (fixed) for C9 and for C3 + defaults. The
+     pre-registered 3 sampling seeds are dropped.
+   - Full test set (`sv_open`, `en_open`, `sv_math`, `en_math`, perplexity) for C0, C3, C9, C3 + defaults.
+     `sv_open` and `sv_math` only for C1, C2 and C5.
+   - C5 uses 3 random seeds instead of 5.
+   - C6, C7 and C8 are dropped.
+8. **Next experiment, recorded now so it is not chosen after the fact:** Qwen3-0.6B is the more informative model for the
+   paper's question, because it has more Swedish ability (67% Swedish math) and its loops do not respond to recommended
+   decoding (55% to 48%, CI includes 0). It is not run here for time reasons (half the generation speed).
