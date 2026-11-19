@@ -106,6 +106,21 @@ def load_model_configs():
     return json.loads((CONFIGS / "models.json").read_text(encoding="utf-8"))
 
 
+def model_config(name):
+    for c in load_model_configs()["candidates"]:
+        if c["name"] == name:
+            return c
+    raise KeyError(name)
+
+
+def pinned_revision(name):
+    """Commit sha pinned in pilot 1 (results/model_revisions.json)."""
+    path = RESULTS / "model_revisions.json"
+    if not path.exists():
+        raise FileNotFoundError("results/model_revisions.json missing: run scripts/02_pilot.py first")
+    return json.loads(path.read_text(encoding="utf-8"))[name]["revision"]
+
+
 def resolve_revision(repo_id, revision=None):
     """Return the exact commit sha for a model repo (pin it so results are reproducible)."""
     if revision and re.fullmatch(r"[0-9a-f]{40}", revision):
@@ -131,7 +146,7 @@ def load_model(repo_id, revision, device, dtype="float32"):
     if tok.pad_token is None:
         tok.pad_token = tok.eos_token
     model = AutoModelForCausalLM.from_pretrained(repo_id, revision=revision,
-                                                 torch_dtype=getattr(torch, dtype))
+                                                 dtype=getattr(torch, dtype))
     model.to(device).eval()
     return tok, model
 
@@ -149,16 +164,20 @@ def clean_response(text):
 
 
 def generate(tok, model, prompts, max_new_tokens=256, batch_size=8, do_sample=False,
-             temperature=None, seed=None, progress=True):
-    """Batched generation. Greedy by default, repetition_penalty fixed to 1.0 for all models
-    (some model repos ship a different default; we override it so all conditions decode the same way)."""
+             temperature=None, top_p=None, top_k=None, min_p=None, repetition_penalty=1.0,
+             seed=None, progress=True):
+    """Batched generation. Greedy with repetition_penalty=1.0 by default. Every decoding setting is
+    passed explicitly, so the model repo's own generation_config defaults never apply silently."""
     import torch
     from tqdm import tqdm
     outs = []
-    gen_kwargs = dict(max_new_tokens=max_new_tokens, do_sample=do_sample, repetition_penalty=1.0,
-                      pad_token_id=tok.pad_token_id)
+    gen_kwargs = dict(max_new_tokens=max_new_tokens, do_sample=do_sample,
+                      repetition_penalty=repetition_penalty, pad_token_id=tok.pad_token_id)
     if do_sample:
-        gen_kwargs.update(temperature=temperature, top_p=1.0, top_k=0)
+        gen_kwargs.update(temperature=temperature, top_p=1.0 if top_p is None else top_p,
+                          top_k=0 if top_k is None else top_k)
+        if min_p is not None:
+            gen_kwargs["min_p"] = min_p
     else:
         gen_kwargs.update(temperature=None, top_p=None, top_k=None)
     if seed is not None:

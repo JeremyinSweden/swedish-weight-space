@@ -1,0 +1,666 @@
+{
+  "time": "2026-11-19T18:35:12+01:00",
+  "spec": "docs/02_hypothesis.md Deviation 4",
+  "config": {
+    "_comment": "Pilot 2 spec, docs/02_hypothesis.md Deviation 4. Revisions are read from results/model_revisions.json (pinned in pilot 1).",
+    "seed": 20261119,
+    "max_new_tokens": 512,
+    "n_open": 40,
+    "n_math": 60,
+    "models": [
+      "qwen2.5-0.5b",
+      "qwen3-0.6b"
+    ],
+    "gate": {
+      "main": "qwen2.5-0.5b",
+      "reference": "qwen3-0.6b",
+      "set": "open",
+      "decoding": "greedy",
+      "min_sv_loop_rate": 0.4
+    },
+    "decodings": {
+      "greedy": {
+        "all": {
+          "do_sample": false,
+          "repetition_penalty": 1.0
+        }
+      },
+      "recommended": {
+        "qwen2.5-0.5b": {
+          "do_sample": true,
+          "temperature": 0.7,
+          "top_p": 0.8,
+          "top_k": 20,
+          "repetition_penalty": 1.05,
+          "_source": "Deviation 4 (Qwen2.5 recommended settings)"
+        },
+        "qwen3-0.6b": {
+          "do_sample": true,
+          "temperature": 0.7,
+          "top_p": 0.8,
+          "top_k": 20,
+          "min_p": 0.0,
+          "repetition_penalty": 1.0,
+          "_source": "Qwen3 model card, non-thinking mode. The card's optional presence_penalty is not available in transformers generate(), so it is not used."
+        }
+      }
+    }
+  },
+  "cells": {
+    "qwen2.5-0.5b|greedy|sv_open": {
+      "loop": {
+        "k": 36,
+        "n": 40,
+        "rate": 0.9,
+        "ci95": [
+          0.7694792561952611,
+          0.9604211124044252
+        ]
+      },
+      "hit_limit": {
+        "k": 31,
+        "n": 40,
+        "rate": 0.775,
+        "ci95": [
+          0.6249660359590695,
+          0.8768404674532148
+        ]
+      },
+      "median_tokens_all": 512.0,
+      "median_tokens_non_loop": 216.0,
+      "n_non_loop": 4
+    },
+    "qwen2.5-0.5b|greedy|en_open": {
+      "loop": {
+        "k": 9,
+        "n": 40,
+        "rate": 0.225,
+        "ci95": [
+          0.1231595325467853,
+          0.3750339640409305
+        ]
+      },
+      "hit_limit": {
+        "k": 6,
+        "n": 40,
+        "rate": 0.15,
+        "ci95": [
+          0.07061091708507435,
+          0.2907262603902003
+        ]
+      },
+      "median_tokens_all": 302.5,
+      "median_tokens_non_loop": 196.0,
+      "n_non_loop": 31
+    },
+    "qwen2.5-0.5b|greedy|sv_math": {
+      "loop": {
+        "k": 2,
+        "n": 60,
+        "rate": 0.03333333333333333,
+        "ci95": [
+          0.009189126490150246,
+          0.11363987528925378
+        ]
+      },
+      "hit_limit": {
+        "k": 1,
+        "n": 60,
+        "rate": 0.016666666666666666,
+        "ci95": [
+          0.002948083860873682,
+          0.08855338226779477
+        ]
+      },
+      "median_tokens_all": 25.0,
+      "median_tokens_non_loop": 23.0,
+      "n_non_loop": 58,
+      "math_acc": {
+        "k": 14,
+        "n": 60,
+        "rate": 0.23333333333333334,
+        "ci95": [
+          0.1443943161843107,
+          0.3543651134039202
+        ]
+      },
+      "math_acc_looping": {
+        "k": 0,
+        "n": 2,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.6576280471103807
+        ]
+      },
+      "math_acc_non_looping": {
+        "k": 14,
+        "n": 58,
+        "rate": 0.2413793103448276,
+        "ci95": [
+          0.14958739726966278,
+          0.3653022562968685
+        ]
+      }
+    },
+    "qwen2.5-0.5b|greedy|en_math": {
+      "loop": {
+        "k": 0,
+        "n": 60,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.06017393047793289
+        ]
+      },
+      "hit_limit": {
+        "k": 0,
+        "n": 60,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.06017393047793289
+        ]
+      },
+      "median_tokens_all": 39.0,
+      "median_tokens_non_loop": 39.0,
+      "n_non_loop": 60,
+      "math_acc": {
+        "k": 49,
+        "n": 60,
+        "rate": 0.8166666666666667,
+        "ci95": [
+          0.7008000677353371,
+          0.8944231096286387
+        ]
+      },
+      "math_acc_looping": null,
+      "math_acc_non_looping": {
+        "k": 49,
+        "n": 60,
+        "rate": 0.8166666666666667,
+        "ci95": [
+          0.7008000677353371,
+          0.8944231096286387
+        ]
+      }
+    },
+    "qwen2.5-0.5b|recommended|sv_open": {
+      "loop": {
+        "k": 17,
+        "n": 40,
+        "rate": 0.425,
+        "ci95": [
+          0.28509168524815875,
+          0.5780519956394001
+        ]
+      },
+      "hit_limit": {
+        "k": 11,
+        "n": 40,
+        "rate": 0.275,
+        "ci95": [
+          0.1610785343314309,
+          0.4283525083312457
+        ]
+      },
+      "median_tokens_all": 371.0,
+      "median_tokens_non_loop": 319.0,
+      "n_non_loop": 23
+    },
+    "qwen2.5-0.5b|recommended|en_open": {
+      "loop": {
+        "k": 1,
+        "n": 40,
+        "rate": 0.025,
+        "ci95": [
+          0.0044267174077949195,
+          0.1288165948800778
+        ]
+      },
+      "hit_limit": {
+        "k": 1,
+        "n": 40,
+        "rate": 0.025,
+        "ci95": [
+          0.0044267174077949195,
+          0.1288165948800778
+        ]
+      },
+      "median_tokens_all": 288.0,
+      "median_tokens_non_loop": 273.0,
+      "n_non_loop": 39
+    },
+    "qwen2.5-0.5b|recommended|sv_math": {
+      "loop": {
+        "k": 0,
+        "n": 60,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.06017393047793289
+        ]
+      },
+      "hit_limit": {
+        "k": 0,
+        "n": 60,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.06017393047793289
+        ]
+      },
+      "median_tokens_all": 32.0,
+      "median_tokens_non_loop": 32.0,
+      "n_non_loop": 60,
+      "math_acc": {
+        "k": 19,
+        "n": 60,
+        "rate": 0.31666666666666665,
+        "ci95": [
+          0.21305705841174333,
+          0.4423400494301654
+        ]
+      },
+      "math_acc_looping": null,
+      "math_acc_non_looping": {
+        "k": 19,
+        "n": 60,
+        "rate": 0.31666666666666665,
+        "ci95": [
+          0.21305705841174333,
+          0.4423400494301654
+        ]
+      }
+    },
+    "qwen2.5-0.5b|recommended|en_math": {
+      "loop": {
+        "k": 0,
+        "n": 60,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.06017393047793289
+        ]
+      },
+      "hit_limit": {
+        "k": 0,
+        "n": 60,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.06017393047793289
+        ]
+      },
+      "median_tokens_all": 72.5,
+      "median_tokens_non_loop": 72.5,
+      "n_non_loop": 60,
+      "math_acc": {
+        "k": 46,
+        "n": 60,
+        "rate": 0.7666666666666667,
+        "ci95": [
+          0.6456348865960799,
+          0.8556056838156894
+        ]
+      },
+      "math_acc_looping": null,
+      "math_acc_non_looping": {
+        "k": 46,
+        "n": 60,
+        "rate": 0.7666666666666667,
+        "ci95": [
+          0.6456348865960799,
+          0.8556056838156894
+        ]
+      }
+    },
+    "qwen3-0.6b|greedy|sv_open": {
+      "loop": {
+        "k": 22,
+        "n": 40,
+        "rate": 0.55,
+        "ci95": [
+          0.39828829888440775,
+          0.6929492471905531
+        ]
+      },
+      "hit_limit": {
+        "k": 13,
+        "n": 40,
+        "rate": 0.325,
+        "ci95": [
+          0.20084316962661725,
+          0.4798254191110201
+        ]
+      },
+      "median_tokens_all": 220.0,
+      "median_tokens_non_loop": 157.0,
+      "n_non_loop": 18
+    },
+    "qwen3-0.6b|greedy|en_open": {
+      "loop": {
+        "k": 0,
+        "n": 40,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.08762453925039232
+        ]
+      },
+      "hit_limit": {
+        "k": 3,
+        "n": 40,
+        "rate": 0.075,
+        "ci95": [
+          0.025835556771858226,
+          0.19864530159097524
+        ]
+      },
+      "median_tokens_all": 131.5,
+      "median_tokens_non_loop": 131.5,
+      "n_non_loop": 40
+    },
+    "qwen3-0.6b|greedy|sv_math": {
+      "loop": {
+        "k": 1,
+        "n": 60,
+        "rate": 0.016666666666666666,
+        "ci95": [
+          0.002948083860873682,
+          0.08855338226779477
+        ]
+      },
+      "hit_limit": {
+        "k": 1,
+        "n": 60,
+        "rate": 0.016666666666666666,
+        "ci95": [
+          0.002948083860873682,
+          0.08855338226779477
+        ]
+      },
+      "median_tokens_all": 55.0,
+      "median_tokens_non_loop": 55.0,
+      "n_non_loop": 59,
+      "math_acc": {
+        "k": 40,
+        "n": 60,
+        "rate": 0.6666666666666666,
+        "ci95": [
+          0.540566298666634,
+          0.7727090578407216
+        ]
+      },
+      "math_acc_looping": {
+        "k": 0,
+        "n": 1,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.7934567085261071
+        ]
+      },
+      "math_acc_non_looping": {
+        "k": 40,
+        "n": 59,
+        "rate": 0.6779661016949152,
+        "ci95": [
+          0.5510476493903221,
+          0.7831258917034755
+        ]
+      }
+    },
+    "qwen3-0.6b|greedy|en_math": {
+      "loop": {
+        "k": 0,
+        "n": 60,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.06017393047793289
+        ]
+      },
+      "hit_limit": {
+        "k": 0,
+        "n": 60,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.06017393047793289
+        ]
+      },
+      "median_tokens_all": 63.0,
+      "median_tokens_non_loop": 63.0,
+      "n_non_loop": 60,
+      "math_acc": {
+        "k": 54,
+        "n": 60,
+        "rate": 0.9,
+        "ci95": [
+          0.7985030550748896,
+          0.9533578005427642
+        ]
+      },
+      "math_acc_looping": null,
+      "math_acc_non_looping": {
+        "k": 54,
+        "n": 60,
+        "rate": 0.9,
+        "ci95": [
+          0.7985030550748896,
+          0.9533578005427642
+        ]
+      }
+    },
+    "qwen3-0.6b|recommended|sv_open": {
+      "loop": {
+        "k": 19,
+        "n": 40,
+        "rate": 0.475,
+        "ci95": [
+          0.32935229550181694,
+          0.6250289314607027
+        ]
+      },
+      "hit_limit": {
+        "k": 11,
+        "n": 40,
+        "rate": 0.275,
+        "ci95": [
+          0.1610785343314309,
+          0.4283525083312457
+        ]
+      },
+      "median_tokens_all": 249.0,
+      "median_tokens_non_loop": 158.0,
+      "n_non_loop": 21
+    },
+    "qwen3-0.6b|recommended|en_open": {
+      "loop": {
+        "k": 0,
+        "n": 40,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.08762453925039232
+        ]
+      },
+      "hit_limit": {
+        "k": 2,
+        "n": 40,
+        "rate": 0.05,
+        "ci95": [
+          0.013820377146101098,
+          0.165041708179252
+        ]
+      },
+      "median_tokens_all": 127.0,
+      "median_tokens_non_loop": 127.0,
+      "n_non_loop": 40
+    },
+    "qwen3-0.6b|recommended|sv_math": {
+      "loop": {
+        "k": 0,
+        "n": 60,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.06017393047793289
+        ]
+      },
+      "hit_limit": {
+        "k": 0,
+        "n": 60,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.06017393047793289
+        ]
+      },
+      "median_tokens_all": 60.0,
+      "median_tokens_non_loop": 60.0,
+      "n_non_loop": 60,
+      "math_acc": {
+        "k": 38,
+        "n": 60,
+        "rate": 0.6333333333333333,
+        "ci95": [
+          0.5068276736679673,
+          0.7437926115379172
+        ]
+      },
+      "math_acc_looping": null,
+      "math_acc_non_looping": {
+        "k": 38,
+        "n": 60,
+        "rate": 0.6333333333333333,
+        "ci95": [
+          0.5068276736679673,
+          0.7437926115379172
+        ]
+      }
+    },
+    "qwen3-0.6b|recommended|en_math": {
+      "loop": {
+        "k": 0,
+        "n": 60,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.06017393047793289
+        ]
+      },
+      "hit_limit": {
+        "k": 0,
+        "n": 60,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.06017393047793289
+        ]
+      },
+      "median_tokens_all": 57.5,
+      "median_tokens_non_loop": 57.5,
+      "n_non_loop": 60,
+      "math_acc": {
+        "k": 56,
+        "n": 60,
+        "rate": 0.9333333333333333,
+        "ci95": [
+          0.8407442010623228,
+          0.973771725856802
+        ]
+      },
+      "math_acc_looping": null,
+      "math_acc_non_looping": {
+        "k": 56,
+        "n": 60,
+        "rate": 0.9333333333333333,
+        "ci95": [
+          0.8407442010623228,
+          0.973771725856802
+        ]
+      }
+    }
+  },
+  "P1": {
+    "qwen2.5-0.5b|open": {
+      "sv_minus_en": 0.675,
+      "ci95": [
+        0.5,
+        0.8235661764705879
+      ],
+      "meets_20pt": true
+    },
+    "qwen2.5-0.5b|math": {
+      "sv_minus_en": 0.03333333333333333,
+      "ci95": [
+        0.0,
+        0.08333333333333333
+      ],
+      "meets_20pt": false
+    },
+    "qwen3-0.6b|open": {
+      "sv_minus_en": 0.55,
+      "ci95": [
+        0.38461538461538464,
+        0.7105263157894737
+      ],
+      "meets_20pt": true
+    },
+    "qwen3-0.6b|math": {
+      "sv_minus_en": 0.016666666666666666,
+      "ci95": [
+        0.0,
+        0.05
+      ],
+      "meets_20pt": false
+    }
+  },
+  "P2": {
+    "qwen2.5-0.5b|open": {
+      "recommended_minus_greedy": -0.475,
+      "ci95": [
+        -0.6486486486486487,
+        -0.3023255813953488
+      ],
+      "reduced": true,
+      "removed": false
+    },
+    "qwen2.5-0.5b|math": {
+      "recommended_minus_greedy": -0.03333333333333333,
+      "ci95": [
+        -0.08333333333333333,
+        0.0
+      ],
+      "reduced": true,
+      "removed": true
+    },
+    "qwen3-0.6b|open": {
+      "recommended_minus_greedy": -0.075,
+      "ci95": [
+        -0.2,
+        0.05405405405405406
+      ],
+      "reduced": true,
+      "removed": false
+    },
+    "qwen3-0.6b|math": {
+      "recommended_minus_greedy": -0.016666666666666666,
+      "ci95": [
+        -0.05,
+        0.0
+      ],
+      "reduced": true,
+      "removed": true
+    }
+  },
+  "gate": {
+    "outcome": "main",
+    "model": "qwen2.5-0.5b",
+    "rule": "sv_open loop rate under greedy >= 40%",
+    "main_rate": 0.9,
+    "reference_rate": 0.55
+  }
+}

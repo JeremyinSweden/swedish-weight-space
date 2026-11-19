@@ -1,0 +1,20 @@
+{
+  "_comment": "Pilot 2 spec, docs/02_hypothesis.md Deviation 4. Revisions are read from results/model_revisions.json (pinned in pilot 1).",
+  "seed": 20261119,
+  "max_new_tokens": 512,
+  "n_open": 40,
+  "n_math": 60,
+  "models": ["qwen2.5-0.5b", "qwen3-0.6b"],
+  "gate": {"main": "qwen2.5-0.5b", "reference": "qwen3-0.6b", "set": "open", "decoding": "greedy", "min_sv_loop_rate": 0.40},
+  "decodings": {
+    "greedy": {
+      "all": {"do_sample": false, "repetition_penalty": 1.0}
+    },
+    "recommended": {
+      "qwen2.5-0.5b": {"do_sample": true, "temperature": 0.7, "top_p": 0.8, "top_k": 20, "repetition_penalty": 1.05,
+                       "_source": "Deviation 4 (Qwen2.5 recommended settings)"},
+      "qwen3-0.6b": {"do_sample": true, "temperature": 0.7, "top_p": 0.8, "top_k": 20, "min_p": 0.0, "repetition_penalty": 1.0,
+                     "_source": "Qwen3 model card, non-thinking mode. The card's optional presence_penalty is not available in transformers generate(), so it is not used."}
+    }
+  }
+}

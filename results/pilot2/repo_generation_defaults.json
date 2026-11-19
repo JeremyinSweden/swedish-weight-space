@@ -1,0 +1,18 @@
+{
+  "qwen2.5-0.5b": {
+    "do_sample": true,
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "min_p": null,
+    "repetition_penalty": 1.1
+  },
+  "qwen3-0.6b": {
+    "do_sample": true,
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20,
+    "min_p": null,
+    "repetition_penalty": 1.0
+  }
+}
