@@ -1,8 +1,8 @@
 {
-  "_comment": "Candidate models for the pilot (docs/02_hypothesis.md 2.5). 'revision' is resolved to a commit sha on first run and recorded in results/model_revisions.json; later steps pin that sha.",
+  "_comment": "Candidate models for the pilot (docs/02_hypothesis.md 2.5). Revisions are pinned to the commit shas resolved in pilot 1 (results/model_revisions.json), so re-running any script uses the same model files.",
   "candidates": [
-    {"name": "qwen2.5-0.5b", "repo_id": "Qwen/Qwen2.5-0.5B-Instruct", "revision": "main", "template_kwargs": {}},
-    {"name": "qwen3-0.6b", "repo_id": "Qwen/Qwen3-0.6B", "revision": "main", "template_kwargs": {"enable_thinking": false}},
-    {"name": "smollm2-360m", "repo_id": "HuggingFaceTB/SmolLM2-360M-Instruct", "revision": "main", "template_kwargs": {}}
+    {"name": "qwen2.5-0.5b", "repo_id": "Qwen/Qwen2.5-0.5B-Instruct", "revision": "7ae557604adf67be50417f59c2c2f167def9a775", "template_kwargs": {}},
+    {"name": "qwen3-0.6b", "repo_id": "Qwen/Qwen3-0.6B", "revision": "c1899de289a04d12100db370d81485cdf75e47ca", "template_kwargs": {"enable_thinking": false}},
+    {"name": "smollm2-360m", "repo_id": "HuggingFaceTB/SmolLM2-360M-Instruct", "revision": "a10cc1512eabd3dde888204e902eca88bddb4951", "template_kwargs": {}}
   ]
 }

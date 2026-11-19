@@ -7,3 +7,5 @@ __pycache__/
 *.pt
 hf_cache/
 .ipynb_checkpoints/
+results/*_mock/
+configs/frozen_mock.json
