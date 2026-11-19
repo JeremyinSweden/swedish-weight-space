@@ -110,3 +110,15 @@ the gate. To confirm at checkpoint (a2).
 8. **Feedback passes so far** (`results/feedback_log.jsonl`): pilot 1 was started four times for the two Qwen models
    (disk-space failures and a re-run after a restart) and once for SmolLM2: 9 passes of 40 prompts. Pilot 2: 4 passes
    of 200 prompts (2 models x 2 decodings). None used test data.
+9. **Generation speed on the M1 Pro** (float32, MPS, batch size 16; computed from file timestamps, so the first cell
+   per model includes model loading). A batch keeps running until its longest response stops, and looping responses
+   run to the limit, so wall time is set by batch steps, not by useful tokens.
+
+   | Model | Batch steps per second | Generated tokens per second | Seconds per prompt, open (512 limit) | Seconds per prompt, math | Total for 400 prompts |
+   |---|---:|---:|---:|---:|---:|
+   | Qwen2.5-0.5B | 14-18 | 124 (average) | 2.2-2.6 | 0.7-0.9 | 9.7 min |
+   | Qwen3-0.6B | 8-10 | 61 (average) | 3.8-4.3 | 0.6-1.4 | 14.4 min |
+
+   Planning estimate for one Qwen2.5 condition on the full test set with one decoding (120 `sv_open` + 120 `en_open` +
+   100 `sv_math` + 100 `en_math`, 512 tokens): about 11 minutes (open sets about 4-5 min each, math about 1.5 min each).
+   Perplexity on `sv_ref`/`en_ref` is teacher-forced and takes seconds.
